@@ -5,6 +5,7 @@
     "com.sonosthesia.audio": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.audio",
     "com.sonosthesia.channel": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.channel",
     "com.sonosthesia.deform": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.deform",
+    "com.sonosthesia.dynamic": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.dynamic",
     "com.sonosthesia.ease": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.ease",
     "com.sonosthesia.flow": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.flow",
     "com.sonosthesia.fmod": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.fmod",

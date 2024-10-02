@@ -74,6 +74,14 @@
         "com.sonosthesia.utils": "1.10.0"
       }
     },
+    "com.sonosthesia.dynamic": {
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.dynamic",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.neuecc.unirx": "7.1.0"
+      }
+    },
     "com.sonosthesia.ease": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.ease",
       "depth": 0,
