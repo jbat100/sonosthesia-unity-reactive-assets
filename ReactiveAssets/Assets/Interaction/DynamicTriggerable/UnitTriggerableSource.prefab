@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8124810355830796473}
   - component: {fileID: 6504520745490088186}
   m_Layer: 0
-  m_Name: Source1
+  m_Name: UnitTriggerableSource
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -4,6 +4,7 @@
     "com.sonosthesia.arpeggiator": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.arpeggiator",
     "com.sonosthesia.audio": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.audio",
     "com.sonosthesia.channel": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.channel",
+    "com.sonosthesia.collide": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.collide",
     "com.sonosthesia.deform": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.deform",
     "com.sonosthesia.dynamic": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.dynamic",
     "com.sonosthesia.ease": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.ease",

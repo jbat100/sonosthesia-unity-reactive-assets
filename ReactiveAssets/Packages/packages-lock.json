@@ -59,6 +59,19 @@
         "com.sonosthesia.flow": "1.10.0"
       }
     },
+    "com.sonosthesia.collide": {
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.collide",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.neuecc.unirx": "7.1.0",
+        "com.unity.mathematics": "1.2.6",
+        "com.sonosthesia.utils": "1.10.0",
+        "com.sonosthesia.dynamic": "1.10.0",
+        "com.sonosthesia.interaction": "1.10.0",
+        "com.sonosthesia.channel": "1.10.0"
+      }
+    },
     "com.sonosthesia.deform": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.deform",
       "depth": 0,
