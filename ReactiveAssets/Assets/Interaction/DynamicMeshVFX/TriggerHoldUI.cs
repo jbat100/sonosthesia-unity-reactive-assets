@@ -9,8 +9,8 @@ namespace Sonosthesia
     {
         [SerializeField] private Slider _valueScaleSlider;
         
-        [SerializeField] private Triggerable _trigger;
-        [SerializeField] private TrackedTriggerable _hold;
+        [SerializeField] private BuilderTriggerable _trigger;
+        [SerializeField] private BuilderTrackedTriggerable _hold;
 
         private Guid _holdId;
         
