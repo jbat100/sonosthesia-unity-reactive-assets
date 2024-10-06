@@ -9,8 +9,8 @@ namespace Sonosthesia
     {
         [SerializeField] private Slider _valueScaleSlider;
         
-        [SerializeField] private BuilderTriggerable _trigger;
-        [SerializeField] private BuilderTrackedTriggerable _hold;
+        [SerializeField] private BuilderTrigger _trigger;
+        [SerializeField] private BuilderTrackedTrigger _hold;
 
         private Guid _holdId;
         
@@ -22,7 +22,7 @@ namespace Sonosthesia
                 return;
             }
             float valueScale = _valueScaleSlider ? _valueScaleSlider.value : 1f;
-            _trigger.Trigger(valueScale, 1f);
+            _trigger.StartTrigger(valueScale, 1f);
         }
 
         public void StartHold()

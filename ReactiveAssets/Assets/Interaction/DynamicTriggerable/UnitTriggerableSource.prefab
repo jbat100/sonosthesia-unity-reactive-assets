@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 9159512051156488678}
   - component: {fileID: 6100351357765309402}
   - component: {fileID: 3700789627004839842}
+  - component: {fileID: 6867274976850372391}
   - component: {fileID: 8124810355830796473}
   - component: {fileID: 6504520745490088186}
   m_Layer: 0
@@ -123,15 +124,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _domain: 0
-  _node: {fileID: 0}
+  _node: {fileID: 6867274976850372391}
   _dynamicsMonitor: {fileID: 8124810355830796473}
   _gates: []
   _log: 1
-  _driver: {fileID: 0}
   _endOnExit: 1
   _endOnReEnter: 1
   _autoEnd: 0
   _autoEndDelay: 0
+  _driver: {fileID: 0}
+  _valueEventStreamContainer: {fileID: 0}
+--- !u!114 &6867274976850372391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3008107473512265532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f841af043b074ca0adb0034612b6f871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxConcurrent: 1
+  _allowSwitching: 0
+  _perCollider: 0
+  _parent: {fileID: 0}
 --- !u!114 &8124810355830796473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,10 +177,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f84fef9659a740fd8fae6897a01994ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _container: {fileID: 3700789627004839842}
-  _triggerable: {fileID: 0}
+  _log: 1
+  _streamContainer: {fileID: 6867274976850372391}
+  trigger: {fileID: 0}
   _valueScaleGenerator: {fileID: 1288542388130761247}
   _timeScaleGenerator: {fileID: 2048369146857708745}
+  _envelopeFactory: {fileID: 0}
 --- !u!1 &5999178053048210999
 GameObject:
   m_ObjectHideFlags: 0
