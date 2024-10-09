@@ -12,12 +12,12 @@ GameObject:
   - component: {fileID: 7258579594296455314}
   - component: {fileID: 9159512051156488678}
   - component: {fileID: 6100351357765309402}
-  - component: {fileID: 3700789627004839842}
-  - component: {fileID: 6867274976850372391}
   - component: {fileID: 8124810355830796473}
-  - component: {fileID: 1040884586383012079}
+  - component: {fileID: 3095635432180918799}
+  - component: {fileID: 7781920768280379371}
+  - component: {fileID: 2855692728501470149}
   m_Layer: 0
-  m_Name: UnitTriggerableSource
+  m_Name: TrackedTriggerSource
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109,45 +109,6 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3700789627004839842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3008107473512265532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c3348a21017411f80aba508cddaf2dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _domain: 0
-  _node: {fileID: 6867274976850372391}
-  _dynamicsMonitor: {fileID: 8124810355830796473}
-  _gates: []
-  _log: 1
-  _endOnExit: 1
-  _endOnReEnter: 1
-  _autoEnd: 0
-  _autoEndDelay: 0
-  _driver: {fileID: 0}
-  _values: {fileID: 0}
---- !u!114 &6867274976850372391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3008107473512265532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f841af043b074ca0adb0034612b6f871, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _maxConcurrent: 1
-  _allowSwitching: 0
-  _perCollider: 0
-  _parent: {fileID: 0}
 --- !u!114 &8124810355830796473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -163,7 +124,7 @@ MonoBehaviour:
   _order: 1
   _local: 1
   _fixedUpdate: 1
---- !u!114 &1040884586383012079
+--- !u!114 &3095635432180918799
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,10 +133,48 @@ MonoBehaviour:
   m_GameObject: {fileID: 3008107473512265532}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee58bf89996b429e8aeb9a201ee68bb1, type: 3}
+  m_Script: {fileID: 11500000, guid: 19b9961930204c1087d5bdb713d78aee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _domain: 0
+  _node: {fileID: 7781920768280379371}
+  _dynamicsMonitor: {fileID: 8124810355830796473}
+  _gates: []
+  _log: 0
+  _endOnExit: 1
+  _endOnReEnter: 1
+  _autoEnd: 0
+  _autoEndDelay: 0
+--- !u!114 &7781920768280379371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3008107473512265532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f841af043b074ca0adb0034612b6f871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxConcurrent: 1
+  _allowSwitching: 0
+  _perCollider: 0
+  _parent: {fileID: 0}
+--- !u!114 &2855692728501470149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3008107473512265532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ff258c7787495eadba6e7aa5a43153, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _streamContainer: {fileID: 6867274976850372391}
+  _streamContainer: {fileID: 7781920768280379371}
   _trigger: {fileID: 0}
+  _track: 0
   _configuration: {fileID: 0}
