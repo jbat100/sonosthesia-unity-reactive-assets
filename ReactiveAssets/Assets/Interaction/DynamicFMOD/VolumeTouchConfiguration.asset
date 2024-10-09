@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e7bdf51579549cb8720bb1ea9d51a95, type: 3}
-  m_Name: AFrequencyTouchConfiguration
+  m_Name: VolumeTouchConfiguration
   m_EditorClassIdentifier: 
   _startValueScaleExtractor:
-    _extractorType: 2
+    _extractorType: 1
     _extractor: {fileID: 0}
     _staticValue: 1
     _dynamicType: 0
@@ -21,7 +21,7 @@ MonoBehaviour:
     _dynamicsOrder: 1
     _distanceType: 0
     _distanceAxes: -1
-    _postProcessing: 1
+    _postProcessing: 0
     _curve:
       serializedVersion: 2
       m_Curve: []
@@ -32,10 +32,10 @@ MonoBehaviour:
       _fromMin: 0
       _fromMax: 1
       _toMin: 0
-      _toMax: 0.1
+      _toMax: 1
       _clamp: 0
   _startTimeScaleExtractor:
-    _extractorType: 2
+    _extractorType: 1
     _extractor: {fileID: 0}
     _staticValue: 1
     _dynamicType: 0
@@ -43,7 +43,7 @@ MonoBehaviour:
     _dynamicsOrder: 1
     _distanceType: 0
     _distanceAxes: -1
-    _postProcessing: 1
+    _postProcessing: 0
     _curve:
       serializedVersion: 2
       m_Curve: []
@@ -54,7 +54,7 @@ MonoBehaviour:
       _fromMin: 0
       _fromMax: 1
       _toMin: 0
-      _toMax: 0.2
+      _toMax: 1
       _clamp: 0
   _startEnvelope:
     _envelopeType: 1

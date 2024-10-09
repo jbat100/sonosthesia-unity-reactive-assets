@@ -64,8 +64,8 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.neuecc.unirx": "7.1.0",
         "com.unity.mathematics": "1.2.6",
+        "com.neuecc.unirx": "7.1.0",
         "com.sonosthesia.utils": "1.10.0",
         "com.sonosthesia.dynamic": "1.10.0",
         "com.sonosthesia.interaction": "1.10.0",
@@ -132,6 +132,7 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
+        "com.unity.mathematics": "1.2.6",
         "com.neuecc.unirx": "7.1.0",
         "com.sonosthesia.audio": "1.10.0",
         "com.sonosthesia.signal": "1.10.0",
