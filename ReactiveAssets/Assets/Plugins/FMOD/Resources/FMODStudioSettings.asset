@@ -23,7 +23,7 @@ MonoBehaviour:
       Value: 0
       HasValue: 0
     Overlay:
-      Value: 1
+      Value: 0
       HasValue: 1
     OverlayPosition:
       Value: 0
@@ -494,17 +494,17 @@ MonoBehaviour:
   LastEventReferenceScanVersion: 131618
   Platforms:
   - {fileID: -5999828509632853348}
-  - {fileID: 8325504064864083874}
   - {fileID: -4939880542582522991}
-  - {fileID: -753071466870592000}
-  - {fileID: 5628386193137626273}
-  - {fileID: -2418815150934467497}
-  - {fileID: 4960459121198120823}
-  - {fileID: 3907622360936875144}
-  - {fileID: 1124506928882212183}
-  - {fileID: -3088752845005810657}
-  - {fileID: 4737067449546023400}
   - {fileID: -4668688132751872615}
+  - {fileID: -3088752845005810657}
+  - {fileID: -2418815150934467497}
+  - {fileID: -753071466870592000}
+  - {fileID: 1124506928882212183}
+  - {fileID: 3907622360936875144}
+  - {fileID: 4737067449546023400}
+  - {fileID: 4960459121198120823}
+  - {fileID: 5628386193137626273}
+  - {fileID: 8325504064864083874}
   MigratedPlatforms: 080000001200000006000000050000000b000000000000000a000000090000000c000000150000000200000001000000
 --- !u!114 &1124506928882212183
 MonoBehaviour:
@@ -942,15 +942,15 @@ MonoBehaviour:
   displaySortOrder: 0
   childIdentifiers:
   - 46fbfdf3fc43db0458918377fd40293e
-  - 2fea114e74ecf3c4f920e1d5cc1c4c40
-  - 52eb9df5db46521439908db3a29a1bbb
-  - b7716510a1f36934c87976f3a81dbf3d
-  - de700ef3f37a49b58a57ae3addf01ad9
-  - 0f8eb3f400726694eb47beb1a9f94ce8
-  - fd7c55dab0fce234b8c25f6ffca523c1
-  - c88d16e5272a4e241b0ef0ac2e53b73d
-  - e7a046c753c3c3d4aacc91f6597f310d
   - 2c5177b11d81d824dbb064f9ac8527da
+  - c88d16e5272a4e241b0ef0ac2e53b73d
+  - b7716510a1f36934c87976f3a81dbf3d
+  - 2fea114e74ecf3c4f920e1d5cc1c4c40
+  - fd7c55dab0fce234b8c25f6ffca523c1
+  - 0f8eb3f400726694eb47beb1a9f94ce8
+  - e7a046c753c3c3d4aacc91f6597f310d
+  - de700ef3f37a49b58a57ae3addf01ad9
+  - 52eb9df5db46521439908db3a29a1bbb
   codecChannels:
     Value: []
     HasValue: 0
