@@ -208,7 +208,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _streamContainer: {fileID: 364509260}
+  _sourceInteractionLayers:
+    m_Bits: 4294967295
+  _actorInteractionLayers:
+    m_Bits: 4294967295
+  _streamContainers: []
   _trigger: {fileID: 14532242}
   _track: 0
   _configuration: {fileID: 11400000, guid: 7cd60b1561fc44204820e2588a1a17f0, type: 2}
@@ -479,9 +483,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscillationType: 3
-  _direction: {x: 0, y: 4, z: 0}
   _frequency: 0.5
   _fixedUpdate: 1
+  _direction: {x: 0, y: 4, z: 0}
 --- !u!1 &364509253
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,7 +621,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19b9961930204c1087d5bdb713d78aee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _domain: 0
+  _interactionLayers:
+    m_Bits: 4294967295
   _node: {fileID: 364509260}
   _dynamicsMonitor: {fileID: 364509258}
   _gates: []
@@ -930,7 +935,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7087f6ec1f4b498db3db9ed9937229df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _domain: 0
+  _interactionLayers:
+    m_Bits: 4294967295
   _node: {fileID: 0}
   _dynamicsMonitor: {fileID: 0}
   _gates: []
@@ -1208,7 +1214,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _streamContainer: {fileID: 364509260}
+  _sourceInteractionLayers:
+    m_Bits: 4294967295
+  _actorInteractionLayers:
+    m_Bits: 4294967295
+  _streamContainers:
+  - {fileID: 364509260}
   _trigger: {fileID: 933323320}
   _track: 0
   _configuration: {fileID: 11400000, guid: bf273988fa4d34d38a189e2cf4321edb, type: 2}
@@ -1476,7 +1487,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _streamContainer: {fileID: 364509260}
+  _sourceInteractionLayers:
+    m_Bits: 4294967295
+  _actorInteractionLayers:
+    m_Bits: 4294967295
+  _streamContainers:
+  - {fileID: 364509260}
   _trigger: {fileID: 1460297206}
   _track: 0
   _configuration: {fileID: 11400000, guid: ae42a158dc27e4c458521e83d51d48f1, type: 2}
