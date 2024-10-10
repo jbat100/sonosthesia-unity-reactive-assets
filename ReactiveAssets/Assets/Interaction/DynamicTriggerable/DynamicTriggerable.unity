@@ -926,6 +926,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
+  _sourceInteractionLayers:
+    m_Bits: 0
+  _actorInteractionLayers:
+    m_Bits: 0
   _streamContainer: {fileID: 1448133231}
   trigger: {fileID: 915648906}
   _start:
@@ -1123,7 +1127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6fbe69e617c40578fd2e3f259c1819f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _domain: 0
+  _interactionLayers:
+    m_Bits: 4294967295
   _node: {fileID: 0}
   _dynamicsMonitor: {fileID: 1664718909}
   _gates: []
@@ -1206,9 +1211,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscillationType: 3
-  _direction: {x: 0, y: 2, z: 0}
   _frequency: 0.2
   _fixedUpdate: 1
+  _direction: {x: 0, y: 2, z: 0}
 --- !u!1 &2120165564
 GameObject:
   m_ObjectHideFlags: 0

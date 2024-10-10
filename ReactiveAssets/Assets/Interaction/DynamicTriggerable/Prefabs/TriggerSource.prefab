@@ -136,7 +136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19b9961930204c1087d5bdb713d78aee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _domain: 0
+  _interactionLayers:
+    m_Bits: 4294967295
   _node: {fileID: 7781920768280379371}
   _dynamicsMonitor: {fileID: 8124810355830796473}
   _gates: []
@@ -174,6 +175,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
+  _sourceInteractionLayers:
+    m_Bits: 4294967295
+  _actorInteractionLayers:
+    m_Bits: 4294967295
   _streamContainer: {fileID: 7781920768280379371}
   _trigger: {fileID: 0}
   _configuration: {fileID: 0}
