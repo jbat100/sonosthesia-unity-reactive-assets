@@ -905,6 +905,16 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 9216571498208923338, guid: d273341a2bb194ce2b156a7ec18c646f,
         type: 3}
+      propertyPath: _triggers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9216571498208923338, guid: d273341a2bb194ce2b156a7ec18c646f,
+        type: 3}
+      propertyPath: _triggers.Array.data[0]
+      value: 
+      objectReference: {fileID: 964223957}
+    - target: {fileID: 9216571498208923338, guid: d273341a2bb194ce2b156a7ec18c646f,
+        type: 3}
       propertyPath: _streamContainers.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -1143,9 +1153,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _target: {fileID: 2116825024}
+  _followPosition: 1
   _followForce: 200
   _damping: 20
   _maxSpeed: 200
+  _followRotation: 0
   _rotationSpeed: 1000
   _maxTorque: 100
   _rotationDamping: 80

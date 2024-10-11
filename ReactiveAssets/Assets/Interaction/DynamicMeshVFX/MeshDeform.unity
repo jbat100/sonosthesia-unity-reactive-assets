@@ -237,7 +237,8 @@ MonoBehaviour:
   _streamContainers:
   - {fileID: 615689257}
   - {fileID: 1052254828}
-  _trigger: {fileID: 188024500}
+  _triggers:
+  - {fileID: 188024500}
   _track: 0
   _configuration: {fileID: 11400000, guid: b97d5113dd2c6428f9339061f6f397ce, type: 2}
 --- !u!1 &391080900
@@ -342,7 +343,8 @@ MonoBehaviour:
   _streamContainers:
   - {fileID: 615689257}
   - {fileID: 1052254828}
-  _trigger: {fileID: 528649859}
+  _triggers:
+  - {fileID: 528649859}
   _track: 0
   _configuration: {fileID: 11400000, guid: 32e181a49b21d466ca4c1094e3bc6c05, type: 2}
 --- !u!114 &528649859
@@ -451,7 +453,8 @@ MonoBehaviour:
     m_Bits: 2
   _streamContainers:
   - {fileID: 1561031191}
-  _trigger: {fileID: 744850588}
+  _triggers:
+  - {fileID: 744850588}
   _track: 0
   _configuration: {fileID: 11400000, guid: 63d151640fb924840a719cc60fd3a34c, type: 2}
 --- !u!1 &840164608
@@ -527,7 +530,8 @@ MonoBehaviour:
     m_Bits: 4
   _streamContainers:
   - {fileID: 1561031191}
-  _trigger: {fileID: 840164610}
+  _triggers:
+  - {fileID: 840164610}
   _track: 0
   _configuration: {fileID: 11400000, guid: e4201f76769fb475b880bddd93679edb, type: 2}
 --- !u!114 &852627777
@@ -758,7 +762,8 @@ MonoBehaviour:
     m_Bits: 4
   _streamContainers:
   - {fileID: 1519669723}
-  _trigger: {fileID: 1517982653}
+  _triggers:
+  - {fileID: 1517982653}
   _track: 0
   _configuration: {fileID: 11400000, guid: 8a854b476250343ae86a459ab9627200, type: 2}
 --- !u!114 &1519669723 stripped
@@ -846,7 +851,8 @@ MonoBehaviour:
     m_Bits: 2
   _streamContainers:
   - {fileID: 1519669723}
-  _trigger: {fileID: 1543587734}
+  _triggers:
+  - {fileID: 1543587734}
   _track: 0
   _configuration: {fileID: 11400000, guid: 5639b7534fac644caa42bf7dbe22527c, type: 2}
 --- !u!114 &1561031191 stripped
