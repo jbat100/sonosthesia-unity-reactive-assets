@@ -548,6 +548,12 @@ PrefabInstance:
       objectReference: {fileID: 964223957}
     - target: {fileID: 6504520745490088186, guid: 75e0b1d4a65864d5ba5892c1b7d7aded,
         type: 3}
+      propertyPath: _envelopeFactory
+      value: 
+      objectReference: {fileID: 11400000, guid: 79001e3c0d7b64ae8b4f67ae1e8b7cee,
+        type: 2}
+    - target: {fileID: 6504520745490088186, guid: 75e0b1d4a65864d5ba5892c1b7d7aded,
+        type: 3}
       propertyPath: _streamContainers.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -1487,6 +1493,12 @@ PrefabInstance:
       propertyPath: trigger
       value: 
       objectReference: {fileID: 964223957}
+    - target: {fileID: 6504520745490088186, guid: 7d2118d7c6ead064886c09d25a9c0ac9,
+        type: 3}
+      propertyPath: _envelopeFactory
+      value: 
+      objectReference: {fileID: 11400000, guid: 79001e3c0d7b64ae8b4f67ae1e8b7cee,
+        type: 2}
     - target: {fileID: 6504520745490088186, guid: 7d2118d7c6ead064886c09d25a9c0ac9,
         type: 3}
       propertyPath: _streamContainers.Array.size

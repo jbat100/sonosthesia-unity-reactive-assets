@@ -29,6 +29,7 @@
     "com.sonosthesia.target": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.target",
     "com.sonosthesia.timeline": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.timeline",
     "com.sonosthesia.touch": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.touch",
+    "com.sonosthesia.touchdeform": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.touchdeform",
     "com.sonosthesia.trajectory": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.trajectory",
     "com.sonosthesia.trigger": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.trigger",
     "com.sonosthesia.utils": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.utils",

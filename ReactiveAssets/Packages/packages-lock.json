@@ -356,6 +356,17 @@
         "com.sonosthesia.interaction": "1.10.0"
       }
     },
+    "com.sonosthesia.touchdeform": {
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.touchdeform",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.neuecc.unirx": "7.1.0",
+        "com.sonosthesia.utils": "1.10.0",
+        "com.sonosthesia.touch": "1.10.0",
+        "com.sonosthesia.deform": "1.10.0"
+      }
+    },
     "com.sonosthesia.trajectory": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.trajectory",
       "depth": 0,
