@@ -213,8 +213,7 @@ MonoBehaviour:
   _actorInteractionLayers:
     m_Bits: 4294967295
   _streamContainers: []
-  _trigger: {fileID: 14532242}
-  _track: 0
+  _triggers: []
   _configuration: {fileID: 11400000, guid: 7cd60b1561fc44204820e2588a1a17f0, type: 2}
 --- !u!1 &140253457
 GameObject:
@@ -786,9 +785,9 @@ MonoBehaviour:
   _streamContainers:
   - {fileID: 364509260}
   - {fileID: 1979199757}
-  _trigger: {fileID: 933323320}
-  _track: 0
-  _configuration: {fileID: 11400000, guid: bf273988fa4d34d38a189e2cf4321edb, type: 2}
+  _triggers:
+  - {fileID: 933323320}
+  _configuration: {fileID: 11400000, guid: 53f1b7445ed7e47bda0e9d2b7e073571, type: 2}
 --- !u!1 &956070944
 GameObject:
   m_ObjectHideFlags: 0
@@ -1060,9 +1059,9 @@ MonoBehaviour:
   _streamContainers:
   - {fileID: 364509260}
   - {fileID: 1979199757}
-  _trigger: {fileID: 1460297206}
-  _track: 0
-  _configuration: {fileID: 11400000, guid: ae42a158dc27e4c458521e83d51d48f1, type: 2}
+  _triggers:
+  - {fileID: 1460297206}
+  _configuration: {fileID: 11400000, guid: 7127a63122f2541efb129a317b201d29, type: 2}
 --- !u!114 &1460297208
 MonoBehaviour:
   m_ObjectHideFlags: 0
