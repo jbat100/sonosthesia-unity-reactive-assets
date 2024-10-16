@@ -1,5 +1,5 @@
 using System;
-using Sonosthesia.Trigger;
+using Sonosthesia.Envelope;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,8 +9,13 @@ namespace Sonosthesia
     {
         [SerializeField] private Slider _valueScaleSlider;
         
-        [SerializeField] private BuilderTrigger _trigger;
-        [SerializeField] private BuilderTrackedTrigger _hold;
+        [SerializeField] private Trigger.Trigger _trigger;
+
+        [SerializeField] private EnvelopeFactory _playEnvelope;
+        
+        [SerializeField] private EnvelopeFactory _startEnvelope;
+        
+        [SerializeField] private EnvelopeFactory _endEnvelope;
 
         private Guid _holdId;
         
@@ -22,29 +27,33 @@ namespace Sonosthesia
                 return;
             }
             float valueScale = _valueScaleSlider ? _valueScaleSlider.value : 1f;
-            _trigger.StartTrigger(valueScale, 1f);
+            IEnvelope envelope = _playEnvelope ? _playEnvelope.Build() : null;
+            _trigger.TriggerController.PlayTrigger(envelope, valueScale, 1f);
         }
 
         public void StartHold()
         {
             Debug.Log($"{this} {nameof(StartHold)}");
-            if (!_hold)
+            if (!_trigger)
             {
                 return;
             }
+            EndHold();
             float valueScale = _valueScaleSlider ? _valueScaleSlider.value : 1f;
-            _hold.EndTrigger(_holdId);
-            _holdId = _hold.StartTrigger(valueScale, 1f);
+            IEnvelope envelope = _startEnvelope ? _startEnvelope.Build() : null;
+            _holdId = _trigger.TrackedTriggerController.StartTrigger(envelope, valueScale, 1f);
         }
 
         public void EndHold()
         {
-            Debug.Log($"{this} {nameof(EndHold)}");
-            if (!_hold)
+            if (!_trigger || _holdId == Guid.Empty)
             {
                 return;
             }
-            _hold.EndTrigger(_holdId);
+            Debug.Log($"{this} {nameof(EndHold)}");
+            IEnvelope envelope = _endEnvelope ? _endEnvelope.Build() : null;
+            _trigger.TrackedTriggerController.EndTrigger(_holdId, envelope);
+            _holdId = Guid.Empty;
         }
     }
 

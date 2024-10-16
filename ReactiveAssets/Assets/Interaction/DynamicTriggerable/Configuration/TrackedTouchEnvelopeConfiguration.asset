@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8931b4b550f64113970727227227e5ac, type: 3}
-  m_Name: TrackedExcitationConfiguration
+  m_Name: TrackedTouchEnvelopeConfiguration
   m_EditorClassIdentifier: 
   _settings:
     _valueScaleExtractor:
@@ -38,7 +38,7 @@ MonoBehaviour:
     _timeScaleExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 2
+      _staticValue: 1
       _dynamicType: 0
       _dynamicsDomain: 0
       _dynamicsOrder: 1
@@ -71,20 +71,20 @@ MonoBehaviour:
       _phasedType: 2
       _attack:
         _easeType: 21
-        _duration: 0.3
+        _duration: 0.5
       _decay:
         _easeType: 21
-        _duration: 0.3
+        _duration: 0.5
       _release:
         _easeType: 21
         _duration: 1
       _hold: 1
-      _sustain: 0.3
-    _track: 1
+      _sustain: 0.5
+    _track: 0
     _releaseExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 0.4
+      _staticValue: 1
       _dynamicType: 0
       _dynamicsDomain: 0
       _dynamicsOrder: 1

@@ -22,7 +22,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3812016512514202018
 Transform:
   m_ObjectHideFlags: 0
@@ -179,6 +179,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   _actorInteractionLayers:
     m_Bits: 4294967295
-  _streamContainer: {fileID: 7781920768280379371}
+  _streamContainers:
+  - {fileID: 7781920768280379371}
   _trigger: {fileID: 0}
-  _configuration: {fileID: 0}
+  _configuration: {fileID: 11400000, guid: 737c033394010472e8749a2084da0c49, type: 2}
