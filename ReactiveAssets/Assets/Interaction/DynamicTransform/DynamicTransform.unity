@@ -557,7 +557,7 @@ GameObject:
   - component: {fileID: 642670969}
   - component: {fileID: 642670970}
   m_Layer: 0
-  m_Name: ProportionalDerivativeFollower
+  m_Name: Follower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -623,9 +623,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _target: {fileID: 1712642649}
+  _followPosition: 1
   _followForce: 200
   _damping: 20
   _maxSpeed: 200
+  _followRotation: 0
   _rotationSpeed: 1000
   _maxTorque: 100
   _rotationDamping: 80
@@ -975,9 +977,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscillationType: 5
-  _direction: {x: 0, y: 1, z: 0}
   _frequency: 1
   _fixedUpdate: 1
+  _direction: {x: 0, y: 1, z: 0}
 --- !u!114 &1712642656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -991,10 +993,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _oscillationType: 3
-  _axis: {x: 0, y: 1, z: 0}
-  _degrees: 180
   _frequency: 1
   _fixedUpdate: 1
+  _axis: {x: 0, y: 1, z: 0}
+  _degrees: 180
 --- !u!1001 &6350040578422921257
 PrefabInstance:
   m_ObjectHideFlags: 0

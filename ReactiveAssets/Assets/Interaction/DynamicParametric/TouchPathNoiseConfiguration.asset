@@ -9,16 +9,40 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e0c82848424313854e2d154f65ae51, type: 3}
+  m_Script: {fileID: 11500000, guid: a67510f7d95f401a9920cc90219e3e95, type: 3}
   m_Name: TouchPathNoiseConfiguration
   m_EditorClassIdentifier: 
+  _trackPosition: 1
   _noiseType: 0
-  _falloffType: 1
+  _falloffType: 21
   _radius:
-    _valueScaleExtractor:
+    _type: 0
+    _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
+      _dynamicType: 0
+      _dynamicsDomain: 0
+      _dynamicsOrder: 1
+      _distanceType: 0
+      _distanceAxes: -1
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+        _clamp: 0
+    _valueScaleExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 0.5
       _dynamicType: 0
       _dynamicsDomain: 0
       _dynamicsOrder: 1
@@ -70,20 +94,89 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-      _phasedType: 1
+      _phasedType: 2
       _attack:
         _easeType: 21
-        _duration: 1
+        _duration: 0.5
       _decay:
         _easeType: 21
         _duration: 0.5
       _release:
         _easeType: 21
         _duration: 1
-      _hold: 0
+      _hold: 1
       _sustain: 0.5
+    _trackValue: 0
+    _releaseExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _dynamicType: 0
+      _dynamicsDomain: 0
+      _dynamicsOrder: 1
+      _distanceType: 0
+      _distanceAxes: -1
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+        _clamp: 0
+    _releaseType: 21
   _displacement:
+    _type: 2
+    _constantExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _dynamicType: 0
+      _dynamicsDomain: 0
+      _dynamicsOrder: 1
+      _distanceType: 0
+      _distanceAxes: -1
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+        _clamp: 0
     _valueScaleExtractor:
+      _extractorType: 2
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _dynamicType: 0
+      _dynamicsDomain: 0
+      _dynamicsOrder: 1
+      _distanceType: 0
+      _distanceAxes: -1
+      _postProcessing: 1
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 0.3
+        _clamp: 0
+    _timeScaleExtractor:
       _extractorType: 2
       _extractor: {fileID: 0}
       _staticValue: 1
@@ -105,28 +198,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 0.4
         _clamp: 0
-    _timeScaleExtractor:
-      _extractorType: 1
-      _extractor: {fileID: 0}
-      _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
-      _distanceType: 0
-      _distanceAxes: -1
-      _postProcessing: 0
-      _curve:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      _remap:
-        _fromMin: 0
-        _fromMax: 1
-        _toMin: 0
-        _toMax: 1
-        _clamp: 0
     _envelope:
       _envelopeType: 1
       _constantValue: 1
@@ -138,10 +209,10 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-      _phasedType: 1
+      _phasedType: 2
       _attack:
         _easeType: 21
-        _duration: 0.2
+        _duration: 0.5
       _decay:
         _easeType: 21
         _duration: 0.5
@@ -150,11 +221,11 @@ MonoBehaviour:
         _duration: 1
       _hold: 1
       _sustain: 0.5
-  _speed:
-    _valueScaleExtractor:
+    _trackValue: 0
+    _releaseExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 1
+      _staticValue: 0.5
       _dynamicType: 0
       _dynamicsDomain: 0
       _dynamicsOrder: 1
@@ -173,52 +244,31 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
         _clamp: 0
-    _timeScaleExtractor:
-      _extractorType: 1
-      _extractor: {fileID: 0}
-      _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
-      _distanceType: 0
-      _distanceAxes: -1
-      _postProcessing: 0
-      _curve:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      _remap:
-        _fromMin: 0
-        _fromMax: 1
-        _toMin: 0
-        _toMax: 1
-        _clamp: 0
-    _envelope:
-      _envelopeType: 3
-      _constantValue: 1
-      _constantDuration: 10
-      _envelopeFactory: {fileID: 0}
-      _animationCurve:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      _phasedType: 1
-      _attack:
-        _easeType: 21
-        _duration: 1
-      _decay:
-        _easeType: 21
-        _duration: 0.5
-      _release:
-        _easeType: 21
-        _duration: 1
-      _hold: 0
-      _sustain: 0.5
+    _releaseType: 21
   _frequency:
+    _type: 0
+    _constantExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 3
+      _dynamicType: 0
+      _dynamicsDomain: 0
+      _dynamicsOrder: 1
+      _distanceType: 0
+      _distanceAxes: -1
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+        _clamp: 0
     _valueScaleExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
@@ -274,15 +324,154 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-      _phasedType: 1
+      _phasedType: 2
       _attack:
         _easeType: 21
-        _duration: 1
+        _duration: 0.5
       _decay:
         _easeType: 21
         _duration: 0.5
       _release:
         _easeType: 21
         _duration: 1
-      _hold: 0
+      _hold: 1
       _sustain: 0.5
+    _trackValue: 0
+    _releaseExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _dynamicType: 0
+      _dynamicsDomain: 0
+      _dynamicsOrder: 1
+      _distanceType: 0
+      _distanceAxes: -1
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+        _clamp: 0
+    _releaseType: 21
+  _speed:
+    _type: 0
+    _constantExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 5
+      _dynamicType: 0
+      _dynamicsDomain: 0
+      _dynamicsOrder: 1
+      _distanceType: 0
+      _distanceAxes: -1
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+        _clamp: 0
+    _valueScaleExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _dynamicType: 0
+      _dynamicsDomain: 0
+      _dynamicsOrder: 1
+      _distanceType: 0
+      _distanceAxes: -1
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+        _clamp: 0
+    _timeScaleExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _dynamicType: 0
+      _dynamicsDomain: 0
+      _dynamicsOrder: 1
+      _distanceType: 0
+      _distanceAxes: -1
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+        _clamp: 0
+    _envelope:
+      _envelopeType: 3
+      _constantValue: 1
+      _constantDuration: 10
+      _envelopeFactory: {fileID: 0}
+      _animationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _phasedType: 2
+      _attack:
+        _easeType: 21
+        _duration: 0.5
+      _decay:
+        _easeType: 21
+        _duration: 0.5
+      _release:
+        _easeType: 21
+        _duration: 1
+      _hold: 1
+      _sustain: 0.5
+    _trackValue: 0
+    _releaseExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _dynamicType: 0
+      _dynamicsDomain: 0
+      _dynamicsOrder: 1
+      _distanceType: 0
+      _distanceAxes: -1
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+        _clamp: 0
+    _releaseType: 21
