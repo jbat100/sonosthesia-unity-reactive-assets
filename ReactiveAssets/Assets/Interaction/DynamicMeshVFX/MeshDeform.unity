@@ -173,7 +173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 188024499}
   - component: {fileID: 188024501}
-  - component: {fileID: 188024500}
+  - component: {fileID: 188024502}
   m_Layer: 0
   m_Name: DoubleTip
   m_TagString: Untagged
@@ -196,27 +196,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 917042500}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &188024500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 188024498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f69bd7f66834f7eb87d39944e8fef02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
-  _accumulationMode: 2
-  _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
 --- !u!114 &188024501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -237,10 +216,30 @@ MonoBehaviour:
   _streamContainers:
   - {fileID: 615689257}
   - {fileID: 1052254828}
-  _triggers:
-  - {fileID: 188024500}
-  _track: 0
-  _configuration: {fileID: 11400000, guid: b97d5113dd2c6428f9339061f6f397ce, type: 2}
+  _trigger: {fileID: 188024502}
+  _configuration: {fileID: 11400000, guid: 1c0b3e581f9bc4ed78cce105b4c25164, type: 2}
+--- !u!114 &188024502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188024498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _distinct: 0
+  _accumulationMode: 2
+  _postProcessorFactory: {fileID: 0}
+  _postProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
 --- !u!1 &391080900
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,10 +342,8 @@ MonoBehaviour:
   _streamContainers:
   - {fileID: 615689257}
   - {fileID: 1052254828}
-  _triggers:
-  - {fileID: 528649859}
-  _track: 0
-  _configuration: {fileID: 11400000, guid: 32e181a49b21d466ca4c1094e3bc6c05, type: 2}
+  _trigger: {fileID: 528649859}
+  _configuration: {fileID: 11400000, guid: 029cd09bd0dd749ed91f8c511ffa75c5, type: 2}
 --- !u!114 &528649859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -356,12 +353,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 528649856}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f69bd7f66834f7eb87d39944e8fef02, type: 3}
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
   _distinct: 0
   _accumulationMode: 2
+  _postProcessorFactory: {fileID: 0}
   _postProcessor:
     _abs: 0
     _scale: 1
@@ -390,7 +388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 744850587}
   - component: {fileID: 744850589}
-  - component: {fileID: 744850588}
+  - component: {fileID: 744850590}
   m_Layer: 0
   m_Name: OuterTip
   m_TagString: Untagged
@@ -413,27 +411,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 917042500}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &744850588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 744850586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f69bd7f66834f7eb87d39944e8fef02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
-  _accumulationMode: 2
-  _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
 --- !u!114 &744850589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,10 +430,30 @@ MonoBehaviour:
     m_Bits: 2
   _streamContainers:
   - {fileID: 1561031191}
-  _triggers:
-  - {fileID: 744850588}
-  _track: 0
-  _configuration: {fileID: 11400000, guid: 63d151640fb924840a719cc60fd3a34c, type: 2}
+  _trigger: {fileID: 744850590}
+  _configuration: {fileID: 11400000, guid: d1a356f120329471898f1be185cd31fc, type: 2}
+--- !u!114 &744850590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744850586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _distinct: 0
+  _accumulationMode: 2
+  _postProcessorFactory: {fileID: 0}
+  _postProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
 --- !u!1 &840164608
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,7 +464,7 @@ GameObject:
   m_Component:
   - component: {fileID: 840164609}
   - component: {fileID: 840164611}
-  - component: {fileID: 840164610}
+  - component: {fileID: 840164612}
   m_Layer: 0
   m_Name: OuterPalm
   m_TagString: Untagged
@@ -490,27 +487,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 917042500}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &840164610
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 840164608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f69bd7f66834f7eb87d39944e8fef02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
-  _accumulationMode: 2
-  _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
 --- !u!114 &840164611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -530,10 +506,30 @@ MonoBehaviour:
     m_Bits: 4
   _streamContainers:
   - {fileID: 1561031191}
-  _triggers:
-  - {fileID: 840164610}
-  _track: 0
-  _configuration: {fileID: 11400000, guid: e4201f76769fb475b880bddd93679edb, type: 2}
+  _trigger: {fileID: 840164612}
+  _configuration: {fileID: 11400000, guid: 65ced58eee4d34403bb713cf46d34b98, type: 2}
+--- !u!114 &840164612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840164608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _distinct: 0
+  _accumulationMode: 2
+  _postProcessorFactory: {fileID: 0}
+  _postProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
 --- !u!114 &852627777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -682,7 +678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff337cf678fd549d3998badbd60d23ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 188024500}
+  _source: {fileID: 188024502}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 2
@@ -699,7 +695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1517982652}
   - component: {fileID: 1517982654}
-  - component: {fileID: 1517982653}
+  - component: {fileID: 1517982655}
   m_Layer: 0
   m_Name: InnerPalm
   m_TagString: Untagged
@@ -722,27 +718,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 917042500}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1517982653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1517982651}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f69bd7f66834f7eb87d39944e8fef02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
-  _accumulationMode: 2
-  _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
 --- !u!114 &1517982654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -762,10 +737,30 @@ MonoBehaviour:
     m_Bits: 4
   _streamContainers:
   - {fileID: 1519669723}
-  _triggers:
-  - {fileID: 1517982653}
-  _track: 0
-  _configuration: {fileID: 11400000, guid: 8a854b476250343ae86a459ab9627200, type: 2}
+  _trigger: {fileID: 1517982655}
+  _configuration: {fileID: 11400000, guid: 0c3832faadd3e478da1217a5fae6ad94, type: 2}
+--- !u!114 &1517982655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517982651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _distinct: 0
+  _accumulationMode: 2
+  _postProcessorFactory: {fileID: 0}
+  _postProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
 --- !u!114 &1519669723 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7050909554263241799, guid: eddcd03a72f814705bc592ae4d32bb53,
@@ -788,7 +783,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1543587733}
   - component: {fileID: 1543587735}
-  - component: {fileID: 1543587734}
+  - component: {fileID: 1543587736}
   m_Layer: 0
   m_Name: InnerTip
   m_TagString: Untagged
@@ -811,27 +806,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 917042500}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1543587734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1543587732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f69bd7f66834f7eb87d39944e8fef02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _log: 0
-  _distinct: 0
-  _accumulationMode: 2
-  _postProcessor:
-    _abs: 0
-    _scale: 1
-    _offset: 0
-    _clamp: 0
-    _clampRange: {x: 0, y: 0}
 --- !u!114 &1543587735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -851,10 +825,30 @@ MonoBehaviour:
     m_Bits: 2
   _streamContainers:
   - {fileID: 1519669723}
-  _triggers:
-  - {fileID: 1543587734}
-  _track: 0
-  _configuration: {fileID: 11400000, guid: 5639b7534fac644caa42bf7dbe22527c, type: 2}
+  _trigger: {fileID: 1543587736}
+  _configuration: {fileID: 11400000, guid: 8ca24a65aabdd49549c06c6f9dba09df, type: 2}
+--- !u!114 &1543587736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543587732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _distinct: 0
+  _accumulationMode: 2
+  _postProcessorFactory: {fileID: 0}
+  _postProcessor:
+    _abs: 0
+    _scale: 1
+    _offset: 0
+    _clamp: 0
+    _clampRange: {x: 0, y: 0}
 --- !u!114 &1561031191 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6110630539282683987, guid: eddcd03a72f814705bc592ae4d32bb53,
@@ -1139,7 +1133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff337cf678fd549d3998badbd60d23ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 840164610}
+  _source: {fileID: 840164612}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 2
@@ -1158,7 +1152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff337cf678fd549d3998badbd60d23ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _source: {fileID: 1517982653}
+  _source: {fileID: 1517982655}
   _distinct: 1
   _processingFactory: {fileID: 0}
   _targetBlend: 2
@@ -1773,6 +1767,8 @@ MonoBehaviour:
   _meshType: 7
   _resolution: 25
   _displacement: 0.5
+  _cacheMesh: 0
+  _normalCompute: 0
   _components:
   - {fileID: 7116496985914583823}
   - {fileID: 909252870553918556}

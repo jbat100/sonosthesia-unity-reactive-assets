@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "com.sonosthesia.adaptivemidi": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.adaptivemidi",
-    "com.sonosthesia.arpeggiator": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.arpeggiator",
     "com.sonosthesia.audio": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.audio",
     "com.sonosthesia.channel": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.channel",
     "com.sonosthesia.collide": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.collide",
@@ -12,6 +11,7 @@
     "com.sonosthesia.flow": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.flow",
     "com.sonosthesia.fmod": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.fmod",
     "com.sonosthesia.generator": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.generator",
+    "com.sonosthesia.haptic": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.haptic",
     "com.sonosthesia.instrument": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.instrument",
     "com.sonosthesia.interaction": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.interaction",
     "com.sonosthesia.mapping": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.mapping",
@@ -26,7 +26,6 @@
     "com.sonosthesia.scaffold": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.scaffold",
     "com.sonosthesia.sequencer": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.sequencer",
     "com.sonosthesia.signal": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.signal",
-    "com.sonosthesia.spawn": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.spawn",
     "com.sonosthesia.target": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.target",
     "com.sonosthesia.timeline": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.timeline",
     "com.sonosthesia.touch": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.touch",

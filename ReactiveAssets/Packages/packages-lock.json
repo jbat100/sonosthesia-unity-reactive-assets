@@ -22,17 +22,6 @@
         "com.neuecc.unirx": "7.1.0"
       }
     },
-    "com.sonosthesia.arpeggiator": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.arpeggiator",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.cysharp.unitask": "2.3.3",
-        "com.neuecc.unirx": "7.1.0",
-        "com.sonosthesia.utils": "1.10.0",
-        "com.sonosthesia.channel": "1.10.0"
-      }
-    },
     "com.sonosthesia.audio": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.audio",
       "depth": 0,
@@ -155,15 +144,14 @@
       }
     },
     "com.sonosthesia.haptic": {
-      "version": "1.10.0",
-      "depth": 1,
-      "source": "registry",
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.haptic",
+      "depth": 0,
+      "source": "local",
       "dependencies": {
         "com.neuecc.unirx": "7.1.0",
         "com.cysharp.unitask": "2.5.2",
         "com.unity.xr.interaction.toolkit": "2.5.3"
-      },
-      "url": "https://registry.npmjs.com"
+      }
     },
     "com.sonosthesia.instrument": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.instrument",
@@ -323,23 +311,6 @@
         "com.sonosthesia.processing": "1.10.0"
       }
     },
-    "com.sonosthesia.spawn": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.spawn",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.unity.splines": "2.2.1",
-        "com.neuecc.unirx": "7.1.0",
-        "com.sonosthesia.signal": "1.10.0",
-        "com.sonosthesia.target": "1.10.0",
-        "com.sonosthesia.channel": "1.10.0",
-        "com.sonosthesia.utils": "1.10.0",
-        "com.sonosthesia.mapping": "1.10.0",
-        "com.sonosthesia.arpeggiator": "1.10.0",
-        "com.sonosthesia.flow": "1.10.0",
-        "com.sonosthesia.sequencer": "1.10.0"
-      }
-    },
     "com.sonosthesia.target": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.target",
       "depth": 0,
@@ -396,7 +367,8 @@
         "com.sonosthesia.trigger": "1.10.0",
         "com.sonosthesia.envelope": "1.10.0",
         "com.sonosthesia.mesh": "1.10.0",
-        "com.sonosthesia.noise": "1.10.0"
+        "com.sonosthesia.noise": "1.10.0",
+        "com.sonosthesia.dynamic": "1.10.0"
       }
     },
     "com.sonosthesia.trajectory": {
@@ -447,7 +419,6 @@
         "com.sonosthesia.channel": "1.10.0",
         "com.sonosthesia.signal": "1.10.0",
         "com.sonosthesia.target": "1.10.0",
-        "com.sonosthesia.spawn": "1.10.0",
         "com.sonosthesia.mesh": "1.10.0"
       }
     },

@@ -213,7 +213,7 @@ MonoBehaviour:
   _actorInteractionLayers:
     m_Bits: 4294967295
   _streamContainers: []
-  _triggers: []
+  _trigger: {fileID: 0}
   _configuration: {fileID: 11400000, guid: 7cd60b1561fc44204820e2588a1a17f0, type: 2}
 --- !u!1 &140253457
 GameObject:
@@ -785,8 +785,7 @@ MonoBehaviour:
   _streamContainers:
   - {fileID: 364509260}
   - {fileID: 1979199757}
-  _triggers:
-  - {fileID: 933323320}
+  _trigger: {fileID: 0}
   _configuration: {fileID: 11400000, guid: 53f1b7445ed7e47bda0e9d2b7e073571, type: 2}
 --- !u!1 &956070944
 GameObject:
@@ -1059,8 +1058,7 @@ MonoBehaviour:
   _streamContainers:
   - {fileID: 364509260}
   - {fileID: 1979199757}
-  _triggers:
-  - {fileID: 1460297206}
+  _trigger: {fileID: 0}
   _configuration: {fileID: 11400000, guid: 7127a63122f2541efb129a317b201d29, type: 2}
 --- !u!114 &1460297208
 MonoBehaviour:
@@ -1725,8 +1723,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 928185344}
   - {fileID: 2062206176}
-  - {fileID: 1430258429}
   - {fileID: 1486319043}
+  - {fileID: 1430258429}
   - {fileID: 2017729849}
   - {fileID: 165724755}
   - {fileID: 140253458}
