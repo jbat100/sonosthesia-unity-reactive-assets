@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{2ed70d4a-df72-4a6a-a802-1530198bf718}">
+		<property name="assetPath">
+			<value>FUI Ping Echo.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.32648526077097506</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{37f295bd-c32e-48e2-bb8e-4e14b79f7c0d}</destination>
+		</relationship>
+	</object>
+</objects>

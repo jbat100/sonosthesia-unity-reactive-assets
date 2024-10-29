@@ -9,11 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 414a49cd617c41cfa56028396982d03c, type: 3}
-  m_Name: VolumeConfiguration
+  m_Script: {fileID: 11500000, guid: 8931b4b550f64113970727227227e5ac, type: 3}
+  m_Name: TouchExcitationConfiguration
   m_EditorClassIdentifier: 
   _settings:
-    _valueScaleExtractor:
+    _type: 1
+    _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
@@ -35,10 +36,32 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
         _clamp: 0
+    _valueScaleExtractor:
+      _extractorType: 2
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _dynamicType: 0
+      _dynamicsDomain: 0
+      _dynamicsOrder: 1
+      _distanceType: 0
+      _distanceAxes: -1
+      _postProcessing: 1
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 0.4
+        _clamp: 0
     _timeScaleExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 1
+      _staticValue: 2
       _dynamicType: 0
       _dynamicsDomain: 0
       _dynamicsOrder: 1
@@ -71,12 +94,36 @@ MonoBehaviour:
       _phasedType: 1
       _attack:
         _easeType: 21
-        _duration: 1
+        _duration: 0.3
       _decay:
         _easeType: 21
-        _duration: 0.5
+        _duration: 0.3
       _release:
         _easeType: 21
         _duration: 1
       _hold: 1
-      _sustain: 0.5
+      _sustain: 0.3
+    _trackValue: 0
+    _releaseExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 0.4
+      _dynamicType: 0
+      _dynamicsDomain: 0
+      _dynamicsOrder: 1
+      _distanceType: 0
+      _distanceAxes: -1
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+        _clamp: 0
+    _releaseType: 21

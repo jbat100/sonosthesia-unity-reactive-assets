@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{aa4bce9e-33d4-4b64-90fa-a5c3919ca20a}">
+		<property name="assetPath">
+			<value>kepler.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>186.59999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{37f295bd-c32e-48e2-bb8e-4e14b79f7c0d}</destination>
+		</relationship>
+	</object>
+</objects>

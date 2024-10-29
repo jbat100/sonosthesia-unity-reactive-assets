@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.cysharp.unitask": {
-      "version": "2.5.2",
+      "version": "2.5.5",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -14,12 +14,32 @@
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
+    "com.nobi.roundedcorners": {
+      "version": "https://github.com/kirevdokimov/Unity-UI-Rounded-Corners.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "06c20cafa885cbb9f14791c269cda6b547e0be30"
+    },
     "com.sonosthesia.adaptivemidi": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.adaptivemidi",
       "depth": 0,
       "source": "local",
       "dependencies": {
         "com.neuecc.unirx": "7.1.0"
+      }
+    },
+    "com.sonosthesia.application": {
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.application",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.inputsystem": "1.8.1",
+        "com.neuecc.unirx": "7.1.0",
+        "com.cysharp.unitask": "2.5.5",
+        "jp.hadashikick.vcontainer": "1.14.0",
+        "com.sonosthesia.signal": "1.10.0",
+        "com.sonosthesia.utils": "1.10.0"
       }
     },
     "com.sonosthesia.audio": {
@@ -472,7 +492,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
-      "version": "1.7.0",
+      "version": "1.8.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -621,6 +641,19 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.xr.hands": {
+      "version": "1.5.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.inputsystem": "1.3.0",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.xr.core-utils": "2.2.0",
+        "com.unity.xr.management": "4.0.1"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.xr.interaction.toolkit": {
       "version": "2.5.4",
       "depth": 0,
@@ -646,6 +679,25 @@
         "com.unity.modules.xr": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.management": {
+      "version": "4.4.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.vr": "1.0.0",
+        "com.unity.modules.xr": "1.0.0",
+        "com.unity.modules.subsystems": "1.0.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.7"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "jp.hadashikick.vcontainer": {
+      "version": "1.16.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
     },
     "jp.keijiro.rtmidi": {
       "version": "1.0.4",

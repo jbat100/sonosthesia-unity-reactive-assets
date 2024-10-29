@@ -1,6 +1,8 @@
 {
   "dependencies": {
+    "com.nobi.roundedcorners": "https://github.com/kirevdokimov/Unity-UI-Rounded-Corners.git",
     "com.sonosthesia.adaptivemidi": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.adaptivemidi",
+    "com.sonosthesia.application": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.application",
     "com.sonosthesia.audio": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.audio",
     "com.sonosthesia.channel": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.channel",
     "com.sonosthesia.collide": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.collide",
@@ -44,7 +46,9 @@
     "com.unity.timeline": "1.7.6",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.9.4",
+    "com.unity.xr.hands": "1.5.0",
     "com.unity.xr.interaction.toolkit": "2.5.4",
+    "jp.hadashikick.vcontainer": "1.16.4",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -98,6 +102,13 @@
       "url": "https://registry.npmjs.com",
       "scopes": [
         "jp.keijiro"
+      ]
+    },
+    {
+      "name": "Hadashikick",
+      "url": "https://package.openupm.com",
+      "scopes": [
+        "jp.hadashikick.vcontainer"
       ]
     }
   ]
