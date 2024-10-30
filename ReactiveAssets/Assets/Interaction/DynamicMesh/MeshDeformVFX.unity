@@ -392,7 +392,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings: []
+  m_Bindings:
+  - {fileID: 349723248}
   m_VisualEffect: {fileID: 349723246}
 --- !u!1 &391080900
 GameObject:
@@ -2676,6 +2677,8 @@ MonoBehaviour:
   _meshType: 7
   _resolution: 25
   _displacement: 0.5
+  _cacheMesh: 0
+  _normalCompute: 0
   _components:
   - {fileID: 7116496985914583823}
   - {fileID: 909252870553918556}

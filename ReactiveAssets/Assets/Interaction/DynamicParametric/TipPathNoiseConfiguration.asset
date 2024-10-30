@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a67510f7d95f401a9920cc90219e3e95, type: 3}
-  m_Name: TouchPathNoiseConfiguration
+  m_Name: TipPathNoiseConfiguration
   m_EditorClassIdentifier: 
   _trackPosition: 1
   _noiseType: 0
@@ -20,7 +20,7 @@ MonoBehaviour:
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 1
+      _staticValue: 0.4
       _dynamicType: 0
       _dynamicsDomain: 0
       _dynamicsOrder: 1
@@ -365,7 +365,7 @@ MonoBehaviour:
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 5
+      _staticValue: 3
       _dynamicType: 0
       _dynamicsDomain: 0
       _dynamicsOrder: 1

@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Playground/DI/Test3.unity
     guid: 962d25804dd15478584a6104ff236f14
   - enabled: 1
-    path: Assets/Interaction/DynamicMeshVFX/MeshDeform.unity
+    path: Assets/Interaction/DynamicMesh/MeshDeform.unity
     guid: 17bd8997fd3984d0eb9b96bd60c9bf30
   - enabled: 1
     path: Assets/Interaction/TouchMesh/TouchMesh.unity
