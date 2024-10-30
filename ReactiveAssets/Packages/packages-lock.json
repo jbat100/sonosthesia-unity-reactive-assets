@@ -391,6 +391,19 @@
         "com.sonosthesia.dynamic": "1.10.0"
       }
     },
+    "com.sonosthesia.touchfmod": {
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.touchfmod",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.neuecc.unirx": "7.1.0",
+        "com.sonosthesia.utils": "1.10.0",
+        "com.sonosthesia.interaction": "1.10.0",
+        "com.sonosthesia.touch": "1.10.0",
+        "com.sonosthesia.dynamic": "1.10.0",
+        "com.sonosthesia.trigger": "1.10.0"
+      }
+    },
     "com.sonosthesia.trajectory": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.trajectory",
       "depth": 0,
