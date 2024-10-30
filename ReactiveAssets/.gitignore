@@ -4,16 +4,6 @@ Build.app/
 Recordings/
 Assets/Unity.VisualScripting.Generated
 
-/[Aa]ssets/Editor Default Resources
-/[Aa]ssets/AssetStoreTools*
-/[Aa]ssets/DefaultPlayables*
-/[Aa]ssets/Melanchall*
-/[Aa]ssets/GabrielAguiarProductions*
-/[Aa]ssets/PathCreator*
-/[Aa]ssets/ExampleAssets*
-/[Aa]ssets/DOTween*
-/[Aa]ssets/**/GabrielAguiarProductions*
-
 ## FMOD stuff
 
 # Never ignore DLLs in the FMOD subfolder.
