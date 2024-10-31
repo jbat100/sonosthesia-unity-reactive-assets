@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a67510f7d95f401a9920cc90219e3e95, type: 3}
   m_Name: TipPathNoiseConfiguration
   m_EditorClassIdentifier: 
-  _trackPosition: 1
+  _trackPosition: 0
   _noiseType: 0
   _falloffType: 21
   _radius:
@@ -20,7 +20,7 @@ MonoBehaviour:
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 0.4
+      _staticValue: 0.2
       _dynamicType: 0
       _dynamicsDomain: 0
       _dynamicsOrder: 1
@@ -131,7 +131,7 @@ MonoBehaviour:
         _clamp: 0
     _releaseType: 21
   _displacement:
-    _type: 2
+    _type: 1
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
@@ -196,7 +196,7 @@ MonoBehaviour:
         _fromMin: 0
         _fromMax: 1
         _toMin: 0
-        _toMax: 0.4
+        _toMax: 2
         _clamp: 0
     _envelope:
       _envelopeType: 1
@@ -209,7 +209,7 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-      _phasedType: 2
+      _phasedType: 1
       _attack:
         _easeType: 21
         _duration: 0.5
@@ -250,7 +250,7 @@ MonoBehaviour:
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 3
+      _staticValue: 10
       _dynamicType: 0
       _dynamicsDomain: 0
       _dynamicsOrder: 1
@@ -365,7 +365,7 @@ MonoBehaviour:
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 3
+      _staticValue: 5
       _dynamicType: 0
       _dynamicsDomain: 0
       _dynamicsOrder: 1

@@ -369,7 +369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _order: 1
-  _local: 1
+  _local: 0
   _fixedUpdate: 1
 --- !u!114 &4831937306787594850
 MonoBehaviour:

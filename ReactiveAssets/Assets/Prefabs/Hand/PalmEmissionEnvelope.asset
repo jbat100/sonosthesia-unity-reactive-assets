@@ -56,7 +56,7 @@ MonoBehaviour:
         _fromMin: 0
         _fromMax: 1
         _toMin: 0
-        _toMax: 2
+        _toMax: 5
         _clamp: 0
     _timeScaleExtractor:
       _extractorType: 1
