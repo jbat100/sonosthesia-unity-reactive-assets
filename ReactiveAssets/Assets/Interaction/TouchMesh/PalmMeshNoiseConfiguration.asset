@@ -14,18 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _noiseType: 3
   _crossFadeType: 14
-  _falloff: 0
+  _falloff: 1
   _falloffType: 14
   _frequency: 2
   _centerTracking:
     _strategy: 2
     _drag: 0
   _radius:
-    _type: 2
+    _type: 0
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 3
+      _staticValue: 2
       _dynamicType: 0
       _dynamicsDomain: 0
       _dynamicsOrder: 1

@@ -14,18 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _noiseType: 9
   _crossFadeType: 14
-  _falloff: 0
+  _falloff: 1
   _falloffType: 14
   _frequency: 5
   _centerTracking:
-    _strategy: 2
+    _strategy: 0
     _drag: 0
   _radius:
     _type: 0
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 3
+      _staticValue: 1
       _dynamicType: 0
       _dynamicsDomain: 0
       _dynamicsOrder: 1
@@ -179,7 +179,7 @@ MonoBehaviour:
         _fromMin: 0
         _fromMax: 1
         _toMin: 0
-        _toMax: -2
+        _toMax: -5
         _clamp: 0
     _timeScaleExtractor:
       _extractorType: 1

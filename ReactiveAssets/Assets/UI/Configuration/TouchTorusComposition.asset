@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 319c0a1b9bc74c50bfc3d9848c6657f0, type: 3}
-  m_Name: TouchSplineComposition
+  m_Name: TouchTorusComposition
   m_EditorClassIdentifier: 
-  _description: This scene shows a spline being deformed by touch using various types
+  _description: This scene shows a torus being deformed by touch using various types
     of noise.
-  _scenePath: Interaction/DynamicParametric/DynamicParametric
+  _scenePath: Interaction/TouchTorus/TouchTorus
   _image: {fileID: 21300000, guid: c2dc56346e6bc422ba9e150c06b797e5, type: 3}
