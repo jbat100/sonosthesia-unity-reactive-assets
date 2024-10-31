@@ -24,10 +24,10 @@ EditorBuildSettings:
     path: Assets/Interaction/TouchMesh/TouchMesh.unity
     guid: e85c70b71c92b4dceafb3ef89438694c
   - enabled: 1
-    path: Assets/Interaction/DynamicParametric/DynamicParametric.unity
+    path: Assets/Interaction/TouchTorus/TouchTorus.unity
     guid: 9cdb3be2bbb9e45299eae3b46ee50500
   - enabled: 1
-    path: Assets/Interaction/DynamicFMOD/DynamicFMOD.unity
+    path: Assets/Interaction/TouchFMOD/TouchFMOD.unity
     guid: e7dc0b05eefac464daa96e68c03c0fbf
   - enabled: 1
     path: Assets/UI/Playable.unity
