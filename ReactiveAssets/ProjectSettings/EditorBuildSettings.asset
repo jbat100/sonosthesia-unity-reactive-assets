@@ -32,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/UI/Playable.unity
     guid: 5db3248ddc9504496bef2f47da303d84
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: cd185e1184bf62a45a4d6967a30fa662,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b755e23c3f4ee7148a43af929dbadeec,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 61aaa7c87cdc4d348bf3bd9e7119f173,
+      type: 2}

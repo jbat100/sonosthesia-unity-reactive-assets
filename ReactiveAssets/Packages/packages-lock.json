@@ -102,7 +102,8 @@
       "depth": 0,
       "source": "local",
       "dependencies": {
-        "com.neuecc.unirx": "7.1.0"
+        "com.neuecc.unirx": "7.1.0",
+        "com.sonosthesia.utils": "1.10.0"
       }
     },
     "com.sonosthesia.ease": {
@@ -455,6 +456,19 @@
         "com.sonosthesia.mesh": "1.10.0"
       }
     },
+    "com.sonosthesia.xr": {
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.xr",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.splines": "2.5.1",
+        "com.unity.xr.hands": "1.3.0",
+        "com.unity.xr.interaction.toolkit": "2.5.4",
+        "com.neuecc.unirx": "7.1.0",
+        "com.sonosthesia.utils": "1.10.0",
+        "com.sonosthesia.scaffold": "1.10.0"
+      }
+    },
     "com.unity.burst": {
       "version": "1.8.15",
       "depth": 1,
@@ -702,6 +716,27 @@
         "com.unity.modules.xr": "1.0.0",
         "com.unity.modules.subsystems": "1.0.0",
         "com.unity.xr.legacyinputhelpers": "2.1.7"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.oculus": {
+      "version": "4.2.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.management": "4.4.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.openxr": {
+      "version": "1.10.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.inputsystem": "1.6.3",
+        "com.unity.xr.core-utils": "2.1.1",
+        "com.unity.xr.management": "4.4.0",
+        "com.unity.xr.legacyinputhelpers": "2.1.2"
       },
       "url": "https://packages.unity.com"
     },
