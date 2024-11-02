@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 715531998774989157}
   - component: {fileID: 6008897161485345294}
+  - component: {fileID: 7334023361542570169}
   m_Layer: 0
   m_Name: HandActors
   m_TagString: Untagged
@@ -30,6 +31,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 4754112009800513007}
   - {fileID: 9017561315586513408}
   - {fileID: 7025629319252203992}
   - {fileID: 3998662659297204207}
@@ -54,6 +56,52 @@ MonoBehaviour:
   - {fileID: 8663448109303918117}
   - {fileID: 3370053730837291026}
   - {fileID: 5611983357441671686}
+--- !u!114 &7334023361542570169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128732537697700806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89390f0d9947473fa251f2de10c4fd0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _target: {fileID: 4754112009800513007}
+  _skeletonDriver: {fileID: 0}
+  _trackingEvents: {fileID: 0}
+--- !u!1 &8560471015114681158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4754112009800513007}
+  m_Layer: 0
+  m_Name: PalmTracker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4754112009800513007
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8560471015114681158}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 715531998774989157}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1306207399259614753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -370,6 +418,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4138045594943183815, guid: becc3124b6706404e8ca304a363b60e7,
+        type: 3}
+      propertyPath: _target
+      value: 
+      objectReference: {fileID: 4754112009800513007}
     - target: {fileID: 5118991859652551909, guid: becc3124b6706404e8ca304a363b60e7,
         type: 3}
       propertyPath: m_Name
