@@ -317,6 +317,11 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 9146723843244757241}
+    - target: {fileID: 7250264055692701181, guid: ed8d41c11c4904836b1f602443bed803,
+        type: 3}
+      propertyPath: _target
+      value: 
+      objectReference: {fileID: 9146723843244757241}
     - target: {fileID: 7334023361542570169, guid: ed8d41c11c4904836b1f602443bed803,
         type: 3}
       propertyPath: _skeletonDriver
@@ -338,7 +343,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8104392627490759510}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8560471015114681158, guid: ed8d41c11c4904836b1f602443bed803, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed8d41c11c4904836b1f602443bed803, type: 3}
@@ -441,6 +447,11 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 9121562762131853839}
+    - target: {fileID: 7250264055692701181, guid: ed8d41c11c4904836b1f602443bed803,
+        type: 3}
+      propertyPath: _target
+      value: 
+      objectReference: {fileID: 9121562762131853839}
     - target: {fileID: 7334023361542570169, guid: ed8d41c11c4904836b1f602443bed803,
         type: 3}
       propertyPath: _skeletonDriver
@@ -462,7 +473,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7082326044930784823}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8560471015114681158, guid: ed8d41c11c4904836b1f602443bed803, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed8d41c11c4904836b1f602443bed803, type: 3}

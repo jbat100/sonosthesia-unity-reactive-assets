@@ -58,6 +58,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3870709743508728000}
+  - component: {fileID: 7513842759741516074}
   m_Layer: 0
   m_Name: TipInteraction
   m_TagString: Untagged
@@ -83,6 +84,21 @@ Transform:
   - {fileID: 5805661231277446531}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7513842759741516074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6719680396848318819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d664d3795044bee896a5c399af4a17a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _targets:
+  - {fileID: 6152075283288749017}
+  - {fileID: 7993827026186921898}
 --- !u!1 &7993827026186921898
 GameObject:
   m_ObjectHideFlags: 0
@@ -285,6 +301,12 @@ PrefabInstance:
 --- !u!4 &3656155512047500038 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8331826513616041977, guid: afdd69c4473d04509b496df52160826b,
+    type: 3}
+  m_PrefabInstance: {fileID: 4692150481884974335}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6152075283288749017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1476426278894337830, guid: afdd69c4473d04509b496df52160826b,
     type: 3}
   m_PrefabInstance: {fileID: 4692150481884974335}
   m_PrefabAsset: {fileID: 0}

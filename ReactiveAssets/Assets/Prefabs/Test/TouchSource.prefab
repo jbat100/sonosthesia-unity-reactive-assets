@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4653044866426029720}
   - component: {fileID: 1843627195705347629}
   - component: {fileID: 8465749243964332452}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TouchSource
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,16 +136,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19b9961930204c1087d5bdb713d78aee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _mute: 0
   _interactionLayers:
     m_Bits: 4294967295
   _node: {fileID: 4653044866426029720}
   _dynamicsMonitor: {fileID: 8465749243964332452}
-  _gates: []
   _log: 0
   _endOnExit: 1
   _endOnReEnter: 1
   _autoEnd: 0
   _autoEndDelay: 0
+  _gates: []
 --- !u!114 &8465749243964332452
 MonoBehaviour:
   m_ObjectHideFlags: 0

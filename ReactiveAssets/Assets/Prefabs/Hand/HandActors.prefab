@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 715531998774989157}
   - component: {fileID: 6008897161485345294}
-  - component: {fileID: 7334023361542570169}
   m_Layer: 0
   m_Name: HandActors
   m_TagString: Untagged
@@ -56,21 +55,6 @@ MonoBehaviour:
   - {fileID: 8663448109303918117}
   - {fileID: 3370053730837291026}
   - {fileID: 5611983357441671686}
---- !u!114 &7334023361542570169
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2128732537697700806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 89390f0d9947473fa251f2de10c4fd0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _target: {fileID: 4754112009800513007}
-  _skeletonDriver: {fileID: 0}
-  _trackingEvents: {fileID: 0}
 --- !u!1 &8560471015114681158
 GameObject:
   m_ObjectHideFlags: 0

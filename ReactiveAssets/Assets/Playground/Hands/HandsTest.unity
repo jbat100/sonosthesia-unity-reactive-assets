@@ -122,6 +122,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &963209772 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9146723843244757241, guid: ec752f3dc15e72f479a1f29f637278ef,
+    type: 3}
+  m_PrefabInstance: {fileID: 980281150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &980281150
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -130,11 +136,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 275541963068543052, guid: ec752f3dc15e72f479a1f29f637278ef,
+        type: 3}
+      propertyPath: _target
+      value: 
+      objectReference: {fileID: 1621042613}
+    - target: {fileID: 275541963068543052, guid: ec752f3dc15e72f479a1f29f637278ef,
+        type: 3}
+      propertyPath: _followRotation
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 865075385244835223, guid: ec752f3dc15e72f479a1f29f637278ef,
         type: 3}
       propertyPath: m_Name
       value: XR Interaction Hands Setup
       objectReference: {fileID: 0}
+    - target: {fileID: 3439975511998547683, guid: ec752f3dc15e72f479a1f29f637278ef,
+        type: 3}
+      propertyPath: _target
+      value: 
+      objectReference: {fileID: 963209772}
     - target: {fileID: 5773256366622995465, guid: ec752f3dc15e72f479a1f29f637278ef,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -186,10 +207,18 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4463001493265432664, guid: ec752f3dc15e72f479a1f29f637278ef, type: 3}
+    - {fileID: 1261025772655777527, guid: ec752f3dc15e72f479a1f29f637278ef, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec752f3dc15e72f479a1f29f637278ef, type: 3}
+--- !u!4 &1621042613 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9121562762131853839, guid: ec752f3dc15e72f479a1f29f637278ef,
+    type: 3}
+  m_PrefabInstance: {fileID: 980281150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1703113417
 GameObject:
   m_ObjectHideFlags: 0

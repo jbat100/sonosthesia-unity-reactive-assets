@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 402aa149c5d1404aa675cc906e8c244f, type: 3}
   m_Name: ApplicationConfiguration
   m_EditorClassIdentifier: 
+  _applicationSettings:
+    _contentOffset: {x: 0, y: 1, z: 0}
+    _testInteraction: 0
   _sceneSwitcherSettings:
     _fadeIn: 1
     _fadeOut: 1

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8931b4b550f64113970727227227e5ac, type: 3}
-  m_Name: TouchSpeedConfiguration
+  m_Name: TouchDisplacement
   m_EditorClassIdentifier: 
   _settings:
-    _type: 1
+    _type: 0
     _constantExtractor:
-      _extractorType: 1
+      _extractorType: 3
       _extractor: {fileID: 0}
       _staticValue: 1
       _dynamicType: 0
@@ -23,7 +23,8 @@ MonoBehaviour:
       _dynamicsOrder: 1
       _distanceType: 0
       _distanceAxes: -1
-      _postProcessing: 0
+      _normalizedDistance: 1
+      _postProcessing: 1
       _curve:
         serializedVersion: 2
         m_Curve: []
@@ -33,8 +34,8 @@ MonoBehaviour:
       _remap:
         _fromMin: 0
         _fromMax: 1
-        _toMin: 0
-        _toMax: 1
+        _toMin: 1
+        _toMax: 0
         _clamp: 0
     _valueScaleExtractor:
       _extractorType: 2
@@ -45,6 +46,7 @@ MonoBehaviour:
       _dynamicsOrder: 1
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
       _postProcessing: 1
       _curve:
         serializedVersion: 2
@@ -67,6 +69,7 @@ MonoBehaviour:
       _dynamicsOrder: 1
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -103,7 +106,7 @@ MonoBehaviour:
         _duration: 1
       _hold: 0.2
       _sustain: 0.7
-    _trackValue: 0
+    _trackValue: 1
     _releaseExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
@@ -113,6 +116,7 @@ MonoBehaviour:
       _dynamicsOrder: 1
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2

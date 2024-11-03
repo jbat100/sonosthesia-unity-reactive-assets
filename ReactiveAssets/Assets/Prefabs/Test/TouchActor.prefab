@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2235281200498176098}
   - component: {fileID: 2501640766501503839}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ GameObject:
   - component: {fileID: 2646288106772324948}
   - component: {fileID: 2416072351869756394}
   - component: {fileID: 2598527415141963773}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Renderer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 4515265965780453504}
   - component: {fileID: 5030565174945469434}
   - component: {fileID: 1358855615605972441}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Emission
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 5352368473744075141}
   - component: {fileID: 5934984518774294980}
   - component: {fileID: 4831937306787594850}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: TouchActor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -351,11 +351,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7087f6ec1f4b498db3db9ed9937229df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _mute: 0
   _interactionLayers:
     m_Bits: 2
   _node: {fileID: 4831937306787594850}
   _dynamicsMonitor: {fileID: 5934984518774294980}
-  _gates: []
 --- !u!114 &5934984518774294980
 MonoBehaviour:
   m_ObjectHideFlags: 0
