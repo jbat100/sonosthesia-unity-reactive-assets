@@ -138,7 +138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mute: 0
   _interactionLayers:
-    m_Bits: 4294967295
+    m_Bits: 0
   _node: {fileID: 4653044866426029720}
   _dynamicsMonitor: {fileID: 8465749243964332452}
   _log: 0
@@ -146,6 +146,7 @@ MonoBehaviour:
   _endOnReEnter: 1
   _autoEnd: 0
   _autoEndDelay: 0
+  _actorMatch: 1
   _gates: []
 --- !u!114 &8465749243964332452
 MonoBehaviour:

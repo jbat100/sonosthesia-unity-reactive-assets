@@ -16,6 +16,12 @@ MonoBehaviour:
   - Default
   - Tip
   - Palm
+  - Deform
+  - Pattern
+  - Amplitude
+  - Excitation
+  - Sound
+  - Scroll
   - 
   - 
   - 
@@ -36,12 +42,6 @@ MonoBehaviour:
   - 
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Left
+  - Right
   - Teleport

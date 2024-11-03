@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8931b4b550f64113970727227227e5ac, type: 3}
-  m_Name: TouchDisplacement
+  m_Name: TouchSpark2Scroll
   m_EditorClassIdentifier: 
   _settings:
     _type: 0
@@ -38,7 +38,7 @@ MonoBehaviour:
         _toMax: 0
         _clamp: 0
     _valueScaleExtractor:
-      _extractorType: 2
+      _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
       _dynamicType: 0
@@ -47,7 +47,7 @@ MonoBehaviour:
       _distanceType: 0
       _distanceAxes: -1
       _normalizedDistance: 0
-      _postProcessing: 1
+      _postProcessing: 0
       _curve:
         serializedVersion: 2
         m_Curve: []
@@ -58,7 +58,7 @@ MonoBehaviour:
         _fromMin: 0
         _fromMax: 1
         _toMin: 0
-        _toMax: 10
+        _toMax: 1
         _clamp: 0
     _timeScaleExtractor:
       _extractorType: 1
@@ -94,18 +94,18 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-      _phasedType: 1
+      _phasedType: 2
       _attack:
-        _easeType: 21
+        _easeType: 14
         _duration: 0.1
       _decay:
-        _easeType: 21
-        _duration: 0.5
+        _easeType: 14
+        _duration: 0.3
       _release:
-        _easeType: 21
+        _easeType: 14
         _duration: 1
-      _hold: 0.2
-      _sustain: 0.7
+      _hold: 1
+      _sustain: 0.5
     _trackValue: 1
     _releaseExtractor:
       _extractorType: 1
@@ -130,4 +130,4 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
         _clamp: 0
-    _releaseType: 21
+    _releaseType: 14
