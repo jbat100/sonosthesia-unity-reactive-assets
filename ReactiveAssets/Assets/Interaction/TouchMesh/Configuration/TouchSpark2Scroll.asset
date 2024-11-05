@@ -34,7 +34,7 @@ MonoBehaviour:
       _remap:
         _fromMin: 0
         _fromMax: 1
-        _toMin: 1
+        _toMin: 2
         _toMax: 0
         _clamp: 0
     _valueScaleExtractor:

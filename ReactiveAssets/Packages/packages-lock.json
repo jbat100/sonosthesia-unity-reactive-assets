@@ -97,6 +97,24 @@
         "com.sonosthesia.utils": "1.10.0"
       }
     },
+    "com.sonosthesia.deforminteraction": {
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.deforminteraction",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.6",
+        "com.neuecc.unirx": "7.1.0",
+        "com.sonosthesia.utils": "1.10.0",
+        "com.sonosthesia.touch": "1.10.0",
+        "com.sonosthesia.deform": "1.10.0",
+        "com.sonosthesia.ease": "1.10.0",
+        "com.sonosthesia.trigger": "1.10.0",
+        "com.sonosthesia.envelope": "1.10.0",
+        "com.sonosthesia.mesh": "1.10.0",
+        "com.sonosthesia.noise": "1.10.0",
+        "com.sonosthesia.dynamic": "1.10.0"
+      }
+    },
     "com.sonosthesia.dynamic": {
       "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.dynamic",
       "depth": 0,
@@ -149,6 +167,19 @@
         "com.sonosthesia.audio": "1.10.0",
         "com.sonosthesia.signal": "1.10.0",
         "com.sonosthesia.utils": "1.10.0"
+      }
+    },
+    "com.sonosthesia.fmodinteraction": {
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.fmodinteraction",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.neuecc.unirx": "7.1.0",
+        "com.sonosthesia.utils": "1.10.0",
+        "com.sonosthesia.interaction": "1.10.0",
+        "com.sonosthesia.touch": "1.10.0",
+        "com.sonosthesia.dynamic": "1.10.0",
+        "com.sonosthesia.trigger": "1.10.0"
       }
     },
     "com.sonosthesia.generator": {
@@ -372,37 +403,6 @@
         "com.sonosthesia.dynamic": "1.10.0",
         "com.sonosthesia.envelope": "1.10.0",
         "com.sonosthesia.ease": "1.10.0"
-      }
-    },
-    "com.sonosthesia.touchdeform": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.touchdeform",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.unity.mathematics": "1.2.6",
-        "com.neuecc.unirx": "7.1.0",
-        "com.sonosthesia.utils": "1.10.0",
-        "com.sonosthesia.touch": "1.10.0",
-        "com.sonosthesia.deform": "1.10.0",
-        "com.sonosthesia.ease": "1.10.0",
-        "com.sonosthesia.trigger": "1.10.0",
-        "com.sonosthesia.envelope": "1.10.0",
-        "com.sonosthesia.mesh": "1.10.0",
-        "com.sonosthesia.noise": "1.10.0",
-        "com.sonosthesia.dynamic": "1.10.0"
-      }
-    },
-    "com.sonosthesia.touchfmod": {
-      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.touchfmod",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.neuecc.unirx": "7.1.0",
-        "com.sonosthesia.utils": "1.10.0",
-        "com.sonosthesia.interaction": "1.10.0",
-        "com.sonosthesia.touch": "1.10.0",
-        "com.sonosthesia.dynamic": "1.10.0",
-        "com.sonosthesia.trigger": "1.10.0"
       }
     },
     "com.sonosthesia.trajectory": {
