@@ -230,6 +230,7 @@
       "dependencies": {
         "com.unity.xr.interaction.toolkit": "2.5.4",
         "com.neuecc.unirx": "7.1.0",
+        "com.cysharp.unitask": "2.5.2",
         "com.sonosthesia.utils": "1.10.0",
         "com.sonosthesia.channel": "1.10.0",
         "com.sonosthesia.trigger": "1.10.0"
@@ -340,6 +341,18 @@
         "com.unity.splines": "2.5.1",
         "com.neuecc.unirx": "7.1.0",
         "com.sonosthesia.utils": "1.10.0"
+      }
+    },
+    "com.sonosthesia.sculpt": {
+      "version": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.sculpt",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.unity.xr.hands": "1.5.0",
+        "com.unity.xr.interaction.toolkit": "2.5.4",
+        "com.neuecc.unirx": "7.1.0",
+        "com.sonosthesia.utils": "1.10.0",
+        "com.sonosthesia.interaction": "1.10.0"
       }
     },
     "com.sonosthesia.sequencer": {
