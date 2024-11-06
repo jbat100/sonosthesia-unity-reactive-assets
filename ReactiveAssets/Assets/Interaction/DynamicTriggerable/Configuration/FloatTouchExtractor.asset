@@ -13,15 +13,21 @@ MonoBehaviour:
   m_Name: FloatTouchExtractor
   m_EditorClassIdentifier: 
   _settings:
-    _extractorType: 0
+    _extractorType: 1
     _extractor: {fileID: 0}
     _staticValue: 0
     _dynamicType: 0
     _dynamicsDomain: 0
     _dynamicsOrder: 1
     _distanceType: 0
-    _distanceAxes: 0
-    _postProcessing: 0
+    _distanceAxes: -1
+    _normalizedDistance: 0
+    _actorModulationType: 2
+    _actorModulation:
+      _strategy: 2
+      _scale: 1
+      _offset: 0
+    _postProcessing: 1
     _curve:
       serializedVersion: 2
       m_Curve: []
@@ -33,4 +39,7 @@ MonoBehaviour:
       _fromMax: 1
       _toMin: 0
       _toMax: 1
+    _clamp:
       _clamp: 0
+      _min: 0
+      _max: 1
