@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TouchEnvelopeConfiguration
   m_EditorClassIdentifier: 
   _settings:
-    _type: 1
+    _type: 2
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
@@ -23,6 +23,12 @@ MonoBehaviour:
       _dynamicsOrder: 1
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -35,9 +41,12 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 1
+      _clamp:
         _clamp: 0
+        _min: 0
+        _max: 1
     _valueScaleExtractor:
-      _extractorType: 2
+      _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
       _dynamicType: 0
@@ -45,6 +54,12 @@ MonoBehaviour:
       _dynamicsOrder: 1
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 1
       _curve:
         serializedVersion: 2
@@ -57,7 +72,10 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 0.4
+      _clamp:
         _clamp: 0
+        _min: 0
+        _max: 1
     _timeScaleExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
@@ -67,6 +85,12 @@ MonoBehaviour:
       _dynamicsOrder: 1
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -79,7 +103,10 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 1
+      _clamp:
         _clamp: 0
+        _min: 0
+        _max: 1
     _envelope:
       _envelopeType: 1
       _constantValue: 1
@@ -91,7 +118,7 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-      _phasedType: 1
+      _phasedType: 2
       _attack:
         _easeType: 12
         _duration: 0.2
@@ -113,6 +140,12 @@ MonoBehaviour:
       _dynamicsOrder: 1
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -125,5 +158,8 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 1
+      _clamp:
         _clamp: 0
+        _min: 0
+        _max: 1
     _releaseType: 14

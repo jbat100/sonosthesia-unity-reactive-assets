@@ -756,6 +756,7 @@ GameObject:
   - component: {fileID: 1664718907}
   - component: {fileID: 1664718911}
   - component: {fileID: 1664718910}
+  - component: {fileID: 1664718912}
   m_Layer: 0
   m_Name: Actor
   m_TagString: Untagged
@@ -946,8 +947,22 @@ MonoBehaviour:
     m_Bits: 4294967295
   _node: {fileID: 1664718910}
   _dynamicsMonitor: {fileID: 0}
-  _gates: []
+  _gates:
+  - {fileID: 1664718912}
   _modulator: {fileID: 0}
+--- !u!114 &1664718912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664718902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdb94d3abfe64ff390acde740624b023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _block: 1
 --- !u!1 &2008761939
 GameObject:
   m_ObjectHideFlags: 0
