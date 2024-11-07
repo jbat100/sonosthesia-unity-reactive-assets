@@ -153,7 +153,7 @@ Transform:
   m_GameObject: {fileID: 294674867}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0051417816, y: 0.0046629147, z: 0.0016711258}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -757,6 +757,7 @@ GameObject:
   - component: {fileID: 1664718911}
   - component: {fileID: 1664718910}
   - component: {fileID: 1664718912}
+  - component: {fileID: 1664718913}
   m_Layer: 0
   m_Name: Actor
   m_TagString: Untagged
@@ -946,10 +947,10 @@ MonoBehaviour:
   _interactionLayers:
     m_Bits: 4294967295
   _node: {fileID: 1664718910}
-  _dynamicsMonitor: {fileID: 0}
+  _dynamicsMonitor: {fileID: 1664718909}
   _gates:
   - {fileID: 1664718912}
-  _modulator: {fileID: 0}
+  _modulator: {fileID: 1664718913}
 --- !u!114 &1664718912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -962,7 +963,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdb94d3abfe64ff390acde740624b023, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _block: 1
+  _block: 0
+--- !u!114 &1664718913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664718902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb927ee9c17543098822451de2ead14a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _curl: 0
+  _tension: 0
+  _pinch: 0
 --- !u!1 &2008761939
 GameObject:
   m_ObjectHideFlags: 0

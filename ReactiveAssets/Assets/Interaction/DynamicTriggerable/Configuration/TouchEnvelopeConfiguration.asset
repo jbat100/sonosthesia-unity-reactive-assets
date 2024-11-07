@@ -55,7 +55,7 @@ MonoBehaviour:
       _distanceType: 0
       _distanceAxes: -1
       _normalizedDistance: 0
-      _actorModulationType: 0
+      _actorModulationType: 1
       _actorModulation:
         _strategy: 1
         _scale: 1
@@ -129,8 +129,8 @@ MonoBehaviour:
         _easeType: 14
         _duration: 1
       _hold: 1
-      _sustain: 0.5
-    _trackValue: 0
+      _sustain: 1
+    _trackValue: 1
     _releaseExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
