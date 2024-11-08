@@ -228,7 +228,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &779096505
 Transform:
   m_ObjectHideFlags: 0
@@ -449,7 +449,8 @@ MonoBehaviour:
   _crossFadeType: 14
   _speed: 1
   _falloff: 0
-  _falloffType: 0
+  _falloffEase: 0
+  _falloffShape: 0
   _radius: 1
 --- !u!114 &971767602
 MonoBehaviour:
@@ -1400,7 +1401,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &6719680396315998137
 MonoBehaviour:
   m_ObjectHideFlags: 0
