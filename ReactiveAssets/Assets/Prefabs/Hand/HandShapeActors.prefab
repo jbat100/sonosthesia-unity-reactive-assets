@@ -62,14 +62,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _hand: {fileID: 9166923057043621976}
   _followers:
-  - _follower: {fileID: 0}
+  - _follower: {fileID: 7219609557198719141}
     _active: 1
-  - _follower: {fileID: 0}
-    _active: 0
-  - _follower: {fileID: 0}
-    _active: 0
-  - _follower: {fileID: 0}
-    _active: 0
 --- !u!114 &7964064038469386772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,6 +215,26 @@ PrefabInstance:
       propertyPath: _dynamicsMonitor
       value: 
       objectReference: {fileID: 2208107156444163027}
+    - target: {fileID: 3721867440986347178, guid: 8399152110d974170838a55e13c6f755,
+        type: 3}
+      propertyPath: _ring
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3721867440986347178, guid: 8399152110d974170838a55e13c6f755,
+        type: 3}
+      propertyPath: _index
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3721867440986347178, guid: 8399152110d974170838a55e13c6f755,
+        type: 3}
+      propertyPath: _little
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3721867440986347178, guid: 8399152110d974170838a55e13c6f755,
+        type: 3}
+      propertyPath: _middle
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8012325811242013325, guid: 8399152110d974170838a55e13c6f755,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -321,6 +335,16 @@ PrefabInstance:
       propertyPath: _dynamicsMonitor
       value: 
       objectReference: {fileID: 2208107156444163027}
+    - target: {fileID: 3721867440986347178, guid: 8399152110d974170838a55e13c6f755,
+        type: 3}
+      propertyPath: _index
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3721867440986347178, guid: 8399152110d974170838a55e13c6f755,
+        type: 3}
+      propertyPath: _thumb
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8012325811242013325, guid: 8399152110d974170838a55e13c6f755,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -421,6 +445,26 @@ PrefabInstance:
       propertyPath: _dynamicsMonitor
       value: 
       objectReference: {fileID: 2208107156444163027}
+    - target: {fileID: 3721867440986347178, guid: 8399152110d974170838a55e13c6f755,
+        type: 3}
+      propertyPath: _ring
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3721867440986347178, guid: 8399152110d974170838a55e13c6f755,
+        type: 3}
+      propertyPath: _index
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3721867440986347178, guid: 8399152110d974170838a55e13c6f755,
+        type: 3}
+      propertyPath: _little
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3721867440986347178, guid: 8399152110d974170838a55e13c6f755,
+        type: 3}
+      propertyPath: _middle
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8012325811242013325, guid: 8399152110d974170838a55e13c6f755,
         type: 3}
       propertyPath: m_LocalPosition.x
