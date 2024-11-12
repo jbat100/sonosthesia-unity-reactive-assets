@@ -9,9 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 715531998774989157}
-  - component: {fileID: 6008897161485345294}
-  - component: {fileID: 1470101798855473531}
   - component: {fileID: 9166923057043621976}
+  - component: {fileID: 6008897161485345294}
   - component: {fileID: 7964064038469386772}
   m_Layer: 0
   m_Name: HandShapeActors
@@ -36,57 +35,6 @@ Transform:
   - {fileID: 6665156704592336075}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6008897161485345294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2128732537697700806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f57c76f5b74343ada552e22eaff44f54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _trackingEvents: {fileID: 0}
-  _followers:
-  - _follower: {fileID: 0}
-    _active: 1
-  - _follower: {fileID: 0}
-    _active: 0
-  - _follower: {fileID: 0}
-    _active: 0
-  - _follower: {fileID: 0}
-    _active: 0
---- !u!114 &1470101798855473531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2128732537697700806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5b9cf54c47f40ee9c3eb30ea8eb89b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Handedness: 2
-  m_UpdateType: 1
-  m_PoseUpdated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_JointsUpdated:
-    m_PersistentCalls:
-      m_Calls: []
-  m_TrackingAcquired:
-    m_PersistentCalls:
-      m_Calls: []
-  m_TrackingLost:
-    m_PersistentCalls:
-      m_Calls: []
-  m_TrackingChanged:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &9166923057043621976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -99,7 +47,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc5daa1f031d46a1a7a5be25548eb044, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _trackingEvents: {fileID: 1470101798855473531}
+  _trackingEvents: {fileID: 0}
+--- !u!114 &6008897161485345294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128732537697700806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57c76f5b74343ada552e22eaff44f54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hand: {fileID: 9166923057043621976}
+  _followers:
+  - _follower: {fileID: 0}
+    _active: 1
+  - _follower: {fileID: 0}
+    _active: 0
+  - _follower: {fileID: 0}
+    _active: 0
+  - _follower: {fileID: 0}
+    _active: 0
 --- !u!114 &7964064038469386772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,7 +82,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed66feede25b4c008d9c95fe71c958db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _trackingEvents: {fileID: 1470101798855473531}
+  _hand: {fileID: 9166923057043621976}
   _elements:
   - _target: {fileID: 1943613079813690079}
     _shape: {fileID: 11400000, guid: 67d2946b523644e0bbbc1a74169aea3d, type: 2}
