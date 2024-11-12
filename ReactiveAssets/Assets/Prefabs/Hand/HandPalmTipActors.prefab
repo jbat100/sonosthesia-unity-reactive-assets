@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6008897161485345294}
   - component: {fileID: 1470101798855473531}
   m_Layer: 0
-  m_Name: HandActors
+  m_Name: HandPalmTipActors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
