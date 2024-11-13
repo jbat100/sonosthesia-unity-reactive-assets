@@ -302,8 +302,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1925953398}
   m_Father: {fileID: 0}
@@ -355,7 +355,7 @@ MonoBehaviour:
   _log: 0
   _gates: []
   _streamContainers:
-  - {fileID: 0}
+  - {fileID: 2121934029}
   _configuration: {fileID: 11400000, guid: d989c3e1e927349bea18a6565ee170e0, type: 2}
   _controller: {fileID: 1122752632}
 --- !u!114 &373968731 stripped
@@ -419,7 +419,7 @@ MonoBehaviour:
   _gates:
   - {fileID: 411341705}
   _streamContainers:
-  - {fileID: 0}
+  - {fileID: 2121934029}
   _configuration: {fileID: 11400000, guid: 9c171f9c6aedd57439506e2cd5c10e33, type: 2}
   _controller: {fileID: 1122752632}
 --- !u!114 &411341705
@@ -582,7 +582,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _streamContainers.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2121934029}
     - target: {fileID: 7449745037434165109, guid: e147cbb57940bd64aa2efee3dd2cd39f,
         type: 3}
       propertyPath: m_Name
@@ -781,7 +781,7 @@ MonoBehaviour:
   _gates:
   - {fileID: 974048000}
   _streamContainers:
-  - {fileID: 0}
+  - {fileID: 2121934029}
   _configuration: {fileID: 11400000, guid: 0c77976c18c1acb459d4c0909d7a0687, type: 2}
   _controller: {fileID: 1122752632}
 --- !u!114 &974048000
@@ -882,7 +882,7 @@ MonoBehaviour:
   _log: 0
   _gates: []
   _streamContainers:
-  - {fileID: 0}
+  - {fileID: 2121934029}
   _configuration: {fileID: 11400000, guid: 66a4cfbf5b6664caaa2f1fda7a51c806, type: 2}
   _controller: {fileID: 1122752632}
 --- !u!4 &1043105237
@@ -932,8 +932,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 971767600}
   m_Father: {fileID: 0}
@@ -1123,7 +1123,7 @@ MonoBehaviour:
   _gates:
   - {fileID: 1207099489}
   _streamContainers:
-  - {fileID: 0}
+  - {fileID: 2121934029}
   _configuration: {fileID: 11400000, guid: e8b6db97463b78b4abba90ac6bc808a4, type: 2}
   _controller: {fileID: 1122752632}
 --- !u!114 &1207099489
@@ -1190,7 +1190,7 @@ MonoBehaviour:
   _log: 0
   _gates: []
   _streamContainers:
-  - {fileID: 0}
+  - {fileID: 2121934029}
   _trigger: {fileID: 1707631242}
   _configuration: {fileID: 11400000, guid: d06363a19707240aebf72c3218e22600, type: 2}
 --- !u!114 &1707631242
@@ -1379,7 +1379,7 @@ MonoBehaviour:
   _log: 0
   _gates: []
   _streamContainers:
-  - {fileID: 0}
+  - {fileID: 2121934029}
   _trigger: {fileID: 1981486358}
   _configuration: {fileID: 11400000, guid: 86a3d16a5c802684ba5220389bb46021, type: 2}
 --- !u!114 &1981486358
@@ -1404,6 +1404,18 @@ MonoBehaviour:
     _offset: 0
     _clamp: 0
     _clampRange: {x: 0, y: 0}
+--- !u!114 &2121934029 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8227034332971403748, guid: 3488aae137ae2ed4e8ff4d01a65fefb2,
+    type: 3}
+  m_PrefabInstance: {fileID: 2405152305067369975}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f841af043b074ca0adb0034612b6f871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2121934033 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8055853676475992879, guid: 3488aae137ae2ed4e8ff4d01a65fefb2,
@@ -1681,7 +1693,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _streamContainers.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2121934029}
     - target: {fileID: 7449745037434165109, guid: e147cbb57940bd64aa2efee3dd2cd39f,
         type: 3}
       propertyPath: m_Name
@@ -1714,7 +1726,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &6719680396315998137
 MonoBehaviour:
   m_ObjectHideFlags: 0

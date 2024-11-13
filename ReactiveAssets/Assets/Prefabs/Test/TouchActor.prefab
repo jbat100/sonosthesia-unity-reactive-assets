@@ -184,12 +184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _log: 0
-  _sourceLayers:
-    m_Bits: 0
-  _sourceMatch: 2
-  _actorLayers:
-    m_Bits: 0
-  _actorMatch: 2
+  _gates: []
   _streamContainers:
   - {fileID: 4831937306787594850}
   _trigger: {fileID: 4515265965780453504}
@@ -268,7 +263,6 @@ GameObject:
   - component: {fileID: 5352368473744075141}
   - component: {fileID: 5934984518774294980}
   - component: {fileID: 4831937306787594850}
-  - component: {fileID: 1137098120833872078}
   m_Layer: 6
   m_Name: TouchActor
   m_TagString: Untagged
@@ -356,6 +350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _log: 0
   _mute: 0
+  _domain: 0
   _interactionLayers:
     m_Bits: 2
   _node: {fileID: 4831937306787594850}
@@ -393,17 +388,3 @@ MonoBehaviour:
   _allowSwitching: 0
   _perCollider: 1
   _parent: {fileID: 0}
---- !u!114 &1137098120833872078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6657198198901209068}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 640aad62b5884c8a9b9fcfa230919704, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _shape: {fileID: 0}
-  _trackingEvents: {fileID: 0}
