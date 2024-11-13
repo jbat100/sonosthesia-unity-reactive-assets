@@ -18,13 +18,13 @@ EditorBuildSettings:
     path: Assets/Playground/DI/Test3.unity
     guid: 962d25804dd15478584a6104ff236f14
   - enabled: 1
-    path: Assets/Interaction/DynamicMesh/MeshDeform.unity
+    path: Assets/Interaction/DynamicMesh/SphereDeform.unity
     guid: 17bd8997fd3984d0eb9b96bd60c9bf30
   - enabled: 1
     path: Assets/Interaction/TouchFMOD/TouchFMOD.unity
     guid: e7dc0b05eefac464daa96e68c03c0fbf
   - enabled: 1
-    path: Assets/Interaction/TouchMesh/TouchMesh.unity
+    path: Assets/Interaction/TouchMesh/TouchSphere.unity
     guid: e85c70b71c92b4dceafb3ef89438694c
   - enabled: 1
     path: Assets/Interaction/TouchTorus/TouchTorus.unity
