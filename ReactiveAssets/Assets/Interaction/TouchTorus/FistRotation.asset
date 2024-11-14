@@ -76,7 +76,7 @@ MonoBehaviour:
         _fromMin: 0
         _fromMax: 1
         _toMin: 0
-        _toMax: 20
+        _toMax: 15
       _clamp:
         _clamp: 0
         _min: 0

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _description: This scene shows a mesh being deformed by touch using various types
     of noise.
-  _scenePath: Interaction/TouchMesh/TouchMesh
+  _scenePath: Interaction/TouchMesh/TouchSphere
   _image: {fileID: 21300000, guid: c2dc56346e6bc422ba9e150c06b797e5, type: 3}
