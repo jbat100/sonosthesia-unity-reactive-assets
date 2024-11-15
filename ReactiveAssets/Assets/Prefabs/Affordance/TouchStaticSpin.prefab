@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 3490866068098922173}
   - component: {fileID: 5600836855566472529}
   m_Layer: 0
-  m_Name: TouchSpin
+  m_Name: TouchStaticSpin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -36,9 +36,7 @@ MonoBehaviour:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 2
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
       _normalizedDistance: 0
@@ -67,9 +65,7 @@ MonoBehaviour:
       _extractorType: 2
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
       _normalizedDistance: 0
@@ -98,9 +94,7 @@ MonoBehaviour:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
       _normalizedDistance: 0
@@ -152,9 +146,7 @@ MonoBehaviour:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
       _normalizedDistance: 0
@@ -191,9 +183,7 @@ MonoBehaviour:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
       _normalizedDistance: 0
@@ -222,9 +212,7 @@ MonoBehaviour:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
       _normalizedDistance: 0
@@ -253,9 +241,7 @@ MonoBehaviour:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
       _normalizedDistance: 0
@@ -307,9 +293,7 @@ MonoBehaviour:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
       _normalizedDistance: 0
@@ -346,9 +330,7 @@ MonoBehaviour:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
       _normalizedDistance: 0
@@ -377,9 +359,7 @@ MonoBehaviour:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
       _normalizedDistance: 0
@@ -408,9 +388,7 @@ MonoBehaviour:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
       _normalizedDistance: 0
@@ -462,9 +440,7 @@ MonoBehaviour:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
       _normalizedDistance: 0
