@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{824a7414-0c3a-4dcc-88c6-9484fbb47233}">
+	<object class="AudioFile" id="{53595673-ad6b-4b21-b6bf-0517dd7155cd}">
 		<property name="assetPath">
-			<value>Unsorted/ES_Iguazu Waterfall, Close, Big, Loud, Argentina - Epidemic Sound.mp3</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>Heal/ES_Hologram, Tech, Soothing Pad, Floating 07 - Epidemic Sound.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -14,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>223.65600000000001</value>
+			<value>2.1360000000000001</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{37f295bd-c32e-48e2-bb8e-4e14b79f7c0d}</destination>

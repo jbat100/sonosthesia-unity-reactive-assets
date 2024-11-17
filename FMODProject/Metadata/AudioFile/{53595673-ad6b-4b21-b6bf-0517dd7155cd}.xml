@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{53595673-ad6b-4b21-b6bf-0517dd7155cd}">
 		<property name="assetPath">
-			<value>Unsorted/ES_Hologram, Tech, Soothing Pad, Floating 07 - Epidemic Sound.mp3</value>
+			<value>Heal/ES_Hologram, Tech, Soothing Pad, Floating 07 - Epidemic Sound.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{1aa4654c-01b4-4389-956a-92dd7c83161c}">
-		<property name="assetPath">
-			<value>Unsorted/ES_Healing, Warm Pad, Calm, Soothing - Epidemic Sound.mp3</value>
-		</property>
+		<property name="assetPath" />
 		<property name="isStreaming">
 			<value>true</value>
 		</property>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{e35961a8-66b7-4610-bfdf-1baed9735eec}">
-		<property name="assetPath">
-			<value>Unsorted/ES_Healing, Warm Pad, Calm, Soothing, Short, Delayed Tail - Epidemic Sound.mp3</value>
-		</property>
+	<object class="AudioFile" id="{824a7414-0c3a-4dcc-88c6-9484fbb47233}">
+		<property name="assetPath" />
 		<property name="isStreaming">
 			<value>true</value>
 		</property>
@@ -14,7 +12,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>15.24</value>
+			<value>223.65600000000001</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{37f295bd-c32e-48e2-bb8e-4e14b79f7c0d}</destination>

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{83fb3a6f-8b76-4ef7-a52e-f919d5e448e0}">
-		<property name="assetPath">
-			<value>Menace/ES_Spaceship, Interior, UFO, Howling, Swirl - Epidemic Sound.mp3</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
-		</property>
+	<object class="AudioFile" id="{f6062453-4fb3-4538-97fc-3c6ed372eaf3}">
+		<property name="assetPath" />
 		<property name="frequencyInKHz">
 			<value>48</value>
 		</property>
@@ -14,7 +9,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>134.328</value>
+			<value>8.5199999999999996</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{37f295bd-c32e-48e2-bb8e-4e14b79f7c0d}</destination>
