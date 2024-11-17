@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{6363670f-48e9-4f17-959a-e398e22d986c}">
 		<property name="assetPath">
-			<value>FUI Button Simple Beeps.wav</value>
+			<value>GUI/FUI Button Simple Beeps.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

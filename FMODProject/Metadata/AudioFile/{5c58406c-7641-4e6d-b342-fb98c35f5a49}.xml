@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{5c58406c-7641-4e6d-b342-fb98c35f5a49}">
 		<property name="assetPath">
-			<value>FUI Click Micro Double.wav</value>
+			<value>GUI/FUI Click Micro Double.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

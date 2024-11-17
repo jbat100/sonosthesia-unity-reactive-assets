@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{d1a8e2cc-4deb-40db-8262-499d59fc46d0}">
 		<property name="assetPath">
-			<value>NastySynth2.wav</value>
+			<value>Synth/NastySynth2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{db549bdb-d6ac-4433-8161-59bf0f146716}">
 		<property name="assetPath">
-			<value>FUI Cursor Click.wav</value>
+			<value>GUI/FUI Cursor Click.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

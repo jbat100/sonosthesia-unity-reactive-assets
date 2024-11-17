@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{b497ea62-eba3-4f0e-b797-b9ea608304f1}">
 		<property name="assetPath">
-			<value>FUI Holographic Interaction Radiate.wav</value>
+			<value>GUI/FUI Holographic Interaction Radiate.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
