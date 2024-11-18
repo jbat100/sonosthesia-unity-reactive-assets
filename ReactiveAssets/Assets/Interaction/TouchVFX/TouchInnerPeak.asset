@@ -1,0 +1,633 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 859d23fccf2e4b8f816530dadf37e3ab, type: 3}
+  m_Name: TouchInnerPeak
+  m_EditorClassIdentifier: 
+  _randomization: 0
+  _scheduler:
+    _schedulerType: 1
+    _scheduler: {fileID: 0}
+  _speed:
+    _trackValue: 0
+    _filter: 0
+    _oneEuroFilter:
+      _beta: 0.1
+      _minCutoff: 0.1
+    _type: 0
+    _constantExtractor:
+      _extractorType: 3
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _velocityType: 0
+      _distanceType: 0
+      _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
+      _postProcessing: 2
+      _curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0.11881856
+          outSlope: 0.11881856
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.18400794
+        - serializedVersion: 3
+          time: 0.9
+          value: 3
+          inSlope: -0.019401334
+          outSlope: -0.019401334
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.1006878
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0.20011532
+          outSlope: 0.20011532
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.17366125
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _clamp: 0
+        _min: 0
+        _max: 1
+    _valueScaleExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _velocityType: 0
+      _distanceType: 0
+      _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _clamp: 0
+        _min: 0
+        _max: 1
+    _timeScaleExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _velocityType: 0
+      _distanceType: 0
+      _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _clamp: 0
+        _min: 0
+        _max: 1
+    _envelope:
+      _envelopeType: 1
+      _constantValue: 1
+      _constantDuration: 1
+      _envelopeFactory: {fileID: 0}
+      _animationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _phasedType: 2
+      _attack:
+        _easeType: 14
+        _duration: 0.1
+      _decay:
+        _easeType: 14
+        _duration: 0.3
+      _release:
+        _easeType: 14
+        _duration: 1
+      _hold: 1
+      _sustain: 0.5
+    _releaseExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _velocityType: 0
+      _distanceType: 0
+      _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _clamp: 0
+        _min: 0
+        _max: 1
+    _releaseType: 14
+  _chaos:
+    _trackValue: 0
+    _filter: 0
+    _oneEuroFilter:
+      _beta: 0.1
+      _minCutoff: 0.1
+    _type: 0
+    _constantExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 0.5
+      _velocityType: 0
+      _distanceType: 0
+      _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _clamp: 0
+        _min: 0
+        _max: 1
+    _valueScaleExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _velocityType: 0
+      _distanceType: 0
+      _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _clamp: 0
+        _min: 0
+        _max: 1
+    _timeScaleExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _velocityType: 0
+      _distanceType: 0
+      _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _clamp: 0
+        _min: 0
+        _max: 1
+    _envelope:
+      _envelopeType: 1
+      _constantValue: 1
+      _constantDuration: 1
+      _envelopeFactory: {fileID: 0}
+      _animationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _phasedType: 2
+      _attack:
+        _easeType: 14
+        _duration: 0.1
+      _decay:
+        _easeType: 14
+        _duration: 0.3
+      _release:
+        _easeType: 14
+        _duration: 1
+      _hold: 1
+      _sustain: 0.5
+    _releaseExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _velocityType: 0
+      _distanceType: 0
+      _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _clamp: 0
+        _min: 0
+        _max: 1
+    _releaseType: 14
+  _magnitude:
+    _trackValue: 0
+    _filter: 0
+    _oneEuroFilter:
+      _beta: 0.1
+      _minCutoff: 0.1
+    _type: 0
+    _constantExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _velocityType: 0
+      _distanceType: 0
+      _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _clamp: 0
+        _min: 0
+        _max: 1
+    _valueScaleExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _velocityType: 0
+      _distanceType: 0
+      _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _clamp: 0
+        _min: 0
+        _max: 1
+    _timeScaleExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _velocityType: 0
+      _distanceType: 0
+      _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _clamp: 0
+        _min: 0
+        _max: 1
+    _envelope:
+      _envelopeType: 1
+      _constantValue: 1
+      _constantDuration: 1
+      _envelopeFactory: {fileID: 0}
+      _animationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _phasedType: 2
+      _attack:
+        _easeType: 14
+        _duration: 0.1
+      _decay:
+        _easeType: 14
+        _duration: 0.3
+      _release:
+        _easeType: 14
+        _duration: 1
+      _hold: 1
+      _sustain: 0.5
+    _releaseExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _velocityType: 0
+      _distanceType: 0
+      _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _clamp: 0
+        _min: 0
+        _max: 1
+    _releaseType: 14
+  _duration:
+    _trackValue: 0
+    _filter: 0
+    _oneEuroFilter:
+      _beta: 0.1
+      _minCutoff: 0.1
+    _type: 0
+    _constantExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _velocityType: 0
+      _distanceType: 0
+      _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _clamp: 0
+        _min: 0
+        _max: 1
+    _valueScaleExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _velocityType: 0
+      _distanceType: 0
+      _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _clamp: 0
+        _min: 0
+        _max: 1
+    _timeScaleExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _velocityType: 0
+      _distanceType: 0
+      _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _clamp: 0
+        _min: 0
+        _max: 1
+    _envelope:
+      _envelopeType: 1
+      _constantValue: 1
+      _constantDuration: 1
+      _envelopeFactory: {fileID: 0}
+      _animationCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _phasedType: 2
+      _attack:
+        _easeType: 14
+        _duration: 0.1
+      _decay:
+        _easeType: 14
+        _duration: 0.3
+      _release:
+        _easeType: 14
+        _duration: 1
+      _hold: 1
+      _sustain: 0.5
+    _releaseExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1
+      _velocityType: 0
+      _distanceType: 0
+      _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
+      _postProcessing: 0
+      _curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 1
+      _clamp:
+        _clamp: 0
+        _min: 0
+        _max: 1
+    _releaseType: 14

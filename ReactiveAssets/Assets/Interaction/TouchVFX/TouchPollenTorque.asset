@@ -21,7 +21,7 @@ MonoBehaviour:
     _velocityType: 0
     _space: 0
     _direction: {x: 0, y: 0, z: 0}
-    _scale: 1
+    _scale: 100
   _intensity:
     _trackValue: 0
     _filter: 0
@@ -82,7 +82,7 @@ MonoBehaviour:
         _fromMin: 0
         _fromMax: 1
         _toMin: 0
-        _toMax: 10
+        _toMax: 2
       _clamp:
         _clamp: 0
         _min: 0
