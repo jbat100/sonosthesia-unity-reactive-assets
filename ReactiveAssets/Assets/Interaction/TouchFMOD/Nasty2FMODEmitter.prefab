@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7986646299886398458}
   - component: {fileID: 3871688200529616648}
   m_Layer: 0
-  m_Name: NastyFMODEmitter
+  m_Name: Nasty2FMODEmitter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48,11 +48,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 619881439
-      Data2: 1125665830
-      Data3: 68819107
-      Data4: 658347601
-    Path: event:/Nasty/NastySynth1
+      Data1: -713902876
+      Data2: 1285465368
+      Data3: -581219678
+      Data4: -526990784
+    Path: event:/Nasty/NastySynth2
   Event: 
   PlayEvent: 11
   StopEvent: 12
@@ -125,7 +125,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d512b4d92461f4a4e9fc9d9ed932c22b, type: 2}
+  - {fileID: 2100000, guid: c1ac6bead5d4649faa4ad2f682c98d3e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
