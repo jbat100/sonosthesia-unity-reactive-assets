@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TouchPollenTurbulence
   m_EditorClassIdentifier: 
   _settings:
-    _trackValue: 0
+    _trackValue: 1
     _filter: 0
     _oneEuroFilter:
       _beta: 0.1
@@ -22,12 +22,12 @@ MonoBehaviour:
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 1
+      _staticValue: 0
       _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
       _normalizedDistance: 0
-      _actorModulationType: 0
+      _actorModulationType: 1
       _actorModulation:
         _strategy: 1
         _scale: 1
@@ -45,7 +45,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _valueScaleExtractor:
@@ -74,7 +73,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _timeScaleExtractor:
@@ -103,7 +101,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _envelope:
@@ -155,7 +152,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _releaseType: 14

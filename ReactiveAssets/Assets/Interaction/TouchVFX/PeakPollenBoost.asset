@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b5aeabe72b94293966278bca4401a2a, type: 3}
-  m_Name: PeakIntensityTrigger
+  m_Name: PeakPollenBoost
   m_EditorClassIdentifier: 
   _value:
     _selector: 1
@@ -47,7 +47,7 @@ MonoBehaviour:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    _phasedType: 1
+    _phasedType: 0
     _attack:
       _easeType: 14
       _duration: 0.1
@@ -56,6 +56,6 @@ MonoBehaviour:
       _duration: 0.5
     _release:
       _easeType: 14
-      _duration: 1
-    _hold: 1
+      _duration: 0.1
+    _hold: 0.2
     _sustain: 0.5
