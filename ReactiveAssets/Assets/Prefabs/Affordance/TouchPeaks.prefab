@@ -68,7 +68,7 @@ MonoBehaviour:
   _inputs: []
   _relay: {fileID: 0}
   _target: {fileID: 4980867483760952419}
-  _peakConfiguration: {fileID: 11400000, guid: 6a54dd320589d472fb176d4e788b6a14, type: 2}
+  _peakConfiguration: {fileID: 0}
 --- !u!114 &3431611079648608020
 MonoBehaviour:
   m_ObjectHideFlags: 0

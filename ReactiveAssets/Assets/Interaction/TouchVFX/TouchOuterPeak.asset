@@ -36,7 +36,7 @@ MonoBehaviour:
         _strategy: 1
         _scale: 1
         _offset: 0
-      _postProcessing: 2
+      _postProcessing: 3
       _curve:
         serializedVersion: 2
         m_Curve:
@@ -50,8 +50,17 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0.18400794
         - serializedVersion: 3
-          time: 0.9
-          value: 15
+          time: 0.66614354
+          value: 0.15
+          inSlope: 0.42254144
+          outSlope: 0.42254144
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.14617807
+          outWeight: 0.29724258
+        - serializedVersion: 3
+          time: 0.945848
+          value: 1
           inSlope: -0.019401334
           outSlope: -0.019401334
           tangentMode: 0
@@ -74,9 +83,8 @@ MonoBehaviour:
         _fromMin: 0
         _fromMax: 1
         _toMin: 0
-        _toMax: 1
+        _toMax: 10
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _valueScaleExtractor:
@@ -105,7 +113,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _timeScaleExtractor:
@@ -134,7 +141,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _envelope:
@@ -186,7 +192,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _releaseType: 14
@@ -223,7 +228,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _valueScaleExtractor:
@@ -252,7 +256,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _timeScaleExtractor:
@@ -281,7 +284,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _envelope:
@@ -333,7 +335,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _releaseType: 14
@@ -370,7 +371,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _valueScaleExtractor:
@@ -399,7 +399,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _timeScaleExtractor:
@@ -428,7 +427,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _envelope:
@@ -480,7 +478,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _releaseType: 14
@@ -517,7 +514,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _valueScaleExtractor:
@@ -546,7 +542,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _timeScaleExtractor:
@@ -575,7 +570,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _envelope:
@@ -627,7 +621,6 @@ MonoBehaviour:
         _toMin: 0
         _toMax: 1
       _clamp:
-        _clamp: 0
         _min: 0
         _max: 1
     _releaseType: 14

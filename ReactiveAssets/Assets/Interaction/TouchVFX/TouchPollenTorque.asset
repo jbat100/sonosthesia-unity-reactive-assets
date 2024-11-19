@@ -64,7 +64,7 @@ MonoBehaviour:
       _staticValue: 1
       _velocityType: 0
       _distanceType: 0
-      _distanceAxes: 7
+      _distanceAxes: -1
       _normalizedDistance: 0
       _actorModulationType: 0
       _actorModulation:
@@ -93,7 +93,7 @@ MonoBehaviour:
       _staticValue: 1
       _velocityType: 0
       _distanceType: 0
-      _distanceAxes: 7
+      _distanceAxes: -1
       _normalizedDistance: 0
       _actorModulationType: 0
       _actorModulation:
@@ -145,7 +145,7 @@ MonoBehaviour:
       _staticValue: 1
       _velocityType: 0
       _distanceType: 0
-      _distanceAxes: 7
+      _distanceAxes: -1
       _normalizedDistance: 0
       _actorModulationType: 0
       _actorModulation:
