@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1602568205993007291}
   - component: {fileID: 5006942452351941085}
   - component: {fileID: 1601034995755241252}
+  - component: {fileID: 2426604512162640263}
   - component: {fileID: 3958751933673673914}
   - component: {fileID: 5258211625060867192}
   m_Layer: 0
@@ -73,9 +74,23 @@ MonoBehaviour:
   _gates:
   - {fileID: 3958751933673673914}
   - {fileID: 5258211625060867192}
-  _streamContainers: []
+  _inputs: []
+  _relay: {fileID: 2426604512162640263}
   _trigger: {fileID: 5006942452351941085}
   _configuration: {fileID: 0}
+--- !u!114 &2426604512162640263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284875661418844873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38f6b60d228248859b6986233fd4ac54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
 --- !u!114 &3958751933673673914
 MonoBehaviour:
   m_ObjectHideFlags: 0
