@@ -289,6 +289,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RightHandShapeActors
       objectReference: {fileID: 0}
+    - target: {fileID: 2272869028303464412, guid: 65b07e6b814fe4be895164b308a5ae38,
+        type: 3}
+      propertyPath: _target
+      value: 
+      objectReference: {fileID: 8570416132503085456}
     - target: {fileID: 7219609557198719141, guid: 65b07e6b814fe4be895164b308a5ae38,
         type: 3}
       propertyPath: _target
@@ -513,6 +518,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: LeftHandShapeActors
       objectReference: {fileID: 0}
+    - target: {fileID: 2272869028303464412, guid: 65b07e6b814fe4be895164b308a5ae38,
+        type: 3}
+      propertyPath: _target
+      value: 
+      objectReference: {fileID: 3576007996139048549}
     - target: {fileID: 7219609557198719141, guid: 65b07e6b814fe4be895164b308a5ae38,
         type: 3}
       propertyPath: _target

@@ -83,7 +83,7 @@ MonoBehaviour:
         _fromMin: 0
         _fromMax: 1
         _toMin: 0
-        _toMax: 10
+        _toMax: 20
       _clamp:
         _min: 0
         _max: 1
@@ -205,7 +205,7 @@ MonoBehaviour:
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 0.5
+      _staticValue: 1
       _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
