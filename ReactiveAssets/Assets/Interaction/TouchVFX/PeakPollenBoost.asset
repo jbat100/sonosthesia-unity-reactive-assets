@@ -49,13 +49,13 @@ MonoBehaviour:
       m_RotationOrder: 4
     _phasedType: 0
     _attack:
-      _easeType: 14
-      _duration: 0.1
+      _easeType: 13
+      _duration: 0.05
     _decay:
       _easeType: 14
       _duration: 0.5
     _release:
       _easeType: 14
       _duration: 0.1
-    _hold: 0.2
+    _hold: 0.1
     _sustain: 0.5

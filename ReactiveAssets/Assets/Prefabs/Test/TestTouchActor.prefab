@@ -200,6 +200,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4831937306787594850, guid: 4f406074bffd34f218c6f3c4cc372299,
+        type: 3}
+      propertyPath: _maxConcurrent
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 5352368473744075141, guid: 4f406074bffd34f218c6f3c4cc372299,
         type: 3}
       propertyPath: _gates.Array.size
@@ -257,6 +262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb927ee9c17543098822451de2ead14a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _curl: 0
   _tension: 0
   _pinch: 0

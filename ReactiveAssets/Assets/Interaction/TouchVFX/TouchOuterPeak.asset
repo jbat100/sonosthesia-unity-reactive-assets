@@ -17,7 +17,7 @@ MonoBehaviour:
     _schedulerType: 1
     _scheduler: {fileID: 0}
   _speed:
-    _trackValue: 0
+    _trackValue: 1
     _filter: 0
     _oneEuroFilter:
       _beta: 0.1
@@ -30,7 +30,7 @@ MonoBehaviour:
       _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
-      _normalizedDistance: 0
+      _normalizedDistance: 1
       _actorModulationType: 0
       _actorModulation:
         _strategy: 1
@@ -50,8 +50,8 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0.18400794
         - serializedVersion: 3
-          time: 0.7690488
-          value: 0.14771119
+          time: 0.7733518
+          value: 0.06436768
           inSlope: 0.42254144
           outSlope: 0.42254144
           tangentMode: 0
@@ -74,7 +74,7 @@ MonoBehaviour:
         _fromMin: 0
         _fromMax: 1
         _toMin: 0
-        _toMax: 30
+        _toMax: 5
       _clamp:
         _min: 0
         _max: 1
