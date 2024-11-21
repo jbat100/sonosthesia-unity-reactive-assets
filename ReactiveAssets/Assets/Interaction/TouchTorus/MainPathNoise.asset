@@ -10,22 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a67510f7d95f401a9920cc90219e3e95, type: 3}
-  m_Name: TipPathNoise
+  m_Name: MainPathNoise
   m_EditorClassIdentifier: 
-  _trackPosition: 0
+  _trackPosition: 1
   _noiseType: 0
-  _falloffType: 21
+  _falloffType: 14
   _radius:
+    _trackValue: 0
+    _filter: 0
+    _oneEuroFilter:
+      _beta: 0.1
+      _minCutoff: 0.1
     _type: 0
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 0.2
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _staticValue: 10
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -38,16 +47,22 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 1
-        _clamp: 0
+      _clamp:
+        _min: 0
+        _max: 1
     _valueScaleExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 0.5
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -60,16 +75,22 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 1
-        _clamp: 0
+      _clamp:
+        _min: 0
+        _max: 1
     _timeScaleExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -82,7 +103,9 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 1
-        _clamp: 0
+      _clamp:
+        _min: 0
+        _max: 1
     _envelope:
       _envelopeType: 3
       _constantValue: 1
@@ -106,16 +129,19 @@ MonoBehaviour:
         _duration: 1
       _hold: 1
       _sustain: 0.5
-    _trackValue: 0
     _releaseExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -128,19 +154,30 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 1
-        _clamp: 0
+      _clamp:
+        _min: 0
+        _max: 1
     _releaseType: 21
   _displacement:
-    _type: 1
+    _trackValue: 1
+    _filter: 0
+    _oneEuroFilter:
+      _beta: 0.1
+      _minCutoff: 0.1
+    _type: 2
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -153,16 +190,86 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 1
-        _clamp: 0
+      _clamp:
+        _min: 0
+        _max: 1
     _valueScaleExtractor:
-      _extractorType: 2
+      _extractorType: 3
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 1
+      _actorModulationType: 1
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
+      _postProcessing: 3
+      _curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0.11881856
+          outSlope: 0.11881856
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.18400794
+        - serializedVersion: 3
+          time: 0.66614354
+          value: 0.15
+          inSlope: 0.42254144
+          outSlope: 0.42254144
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.14617807
+          outWeight: 0.29724258
+        - serializedVersion: 3
+          time: 0.945848
+          value: 1
+          inSlope: -0.019401334
+          outSlope: -0.019401334
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.1006878
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: 0.20011532
+          outSlope: 0.20011532
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.17366125
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      _remap:
+        _fromMin: 0
+        _fromMax: 1
+        _toMin: 0
+        _toMax: 0.03
+      _clamp:
+        _min: 0
+        _max: 1
+    _timeScaleExtractor:
+      _extractorType: 1
+      _extractor: {fileID: 0}
+      _staticValue: 1.3
+      _velocityType: 0
+      _distanceType: 0
+      _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 1
       _curve:
         serializedVersion: 2
@@ -175,29 +282,9 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 0.3
-        _clamp: 0
-    _timeScaleExtractor:
-      _extractorType: 2
-      _extractor: {fileID: 0}
-      _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
-      _distanceType: 0
-      _distanceAxes: -1
-      _postProcessing: 1
-      _curve:
-        serializedVersion: 2
-        m_Curve: []
-        m_PreInfinity: 2
-        m_PostInfinity: 2
-        m_RotationOrder: 4
-      _remap:
-        _fromMin: 0
-        _fromMax: 1
-        _toMin: 0
-        _toMax: 2
-        _clamp: 0
+      _clamp:
+        _min: 0
+        _max: 1
     _envelope:
       _envelopeType: 1
       _constantValue: 1
@@ -209,28 +296,31 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-      _phasedType: 1
+      _phasedType: 2
       _attack:
-        _easeType: 21
-        _duration: 0.5
+        _easeType: 14
+        _duration: 0.3
       _decay:
-        _easeType: 21
+        _easeType: 14
         _duration: 0.5
       _release:
         _easeType: 21
         _duration: 1
       _hold: 1
-      _sustain: 0.5
-    _trackValue: 0
+      _sustain: 1
     _releaseExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 0.5
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _staticValue: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -243,19 +333,30 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 1
-        _clamp: 0
-    _releaseType: 21
+      _clamp:
+        _min: 0
+        _max: 1
+    _releaseType: 14
   _frequency:
+    _trackValue: 0
+    _filter: 0
+    _oneEuroFilter:
+      _beta: 0.1
+      _minCutoff: 0.1
     _type: 0
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 10
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -268,16 +369,22 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 1
-        _clamp: 0
+      _clamp:
+        _min: 0
+        _max: 1
     _valueScaleExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 3
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -290,16 +397,22 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 1
-        _clamp: 0
+      _clamp:
+        _min: 0
+        _max: 1
     _timeScaleExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -312,7 +425,9 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 1
-        _clamp: 0
+      _clamp:
+        _min: 0
+        _max: 1
     _envelope:
       _envelopeType: 3
       _constantValue: 1
@@ -336,16 +451,19 @@ MonoBehaviour:
         _duration: 1
       _hold: 1
       _sustain: 0.5
-    _trackValue: 0
     _releaseExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -358,19 +476,30 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 1
-        _clamp: 0
+      _clamp:
+        _min: 0
+        _max: 1
     _releaseType: 21
   _speed:
+    _trackValue: 0
+    _filter: 0
+    _oneEuroFilter:
+      _beta: 0.1
+      _minCutoff: 0.1
     _type: 0
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 5
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _staticValue: 2
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -383,16 +512,22 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 1
-        _clamp: 0
+      _clamp:
+        _min: 0
+        _max: 1
     _valueScaleExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -405,16 +540,22 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 1
-        _clamp: 0
+      _clamp:
+        _min: 0
+        _max: 1
     _timeScaleExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -427,7 +568,9 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 1
-        _clamp: 0
+      _clamp:
+        _min: 0
+        _max: 1
     _envelope:
       _envelopeType: 3
       _constantValue: 1
@@ -451,16 +594,19 @@ MonoBehaviour:
         _duration: 1
       _hold: 1
       _sustain: 0.5
-    _trackValue: 0
     _releaseExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
-      _dynamicType: 0
-      _dynamicsDomain: 0
-      _dynamicsOrder: 1
+      _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
+      _normalizedDistance: 0
+      _actorModulationType: 0
+      _actorModulation:
+        _strategy: 1
+        _scale: 1
+        _offset: 0
       _postProcessing: 0
       _curve:
         serializedVersion: 2
@@ -473,5 +619,7 @@ MonoBehaviour:
         _fromMax: 1
         _toMin: 0
         _toMax: 1
-        _clamp: 0
+      _clamp:
+        _min: 0
+        _max: 1
     _releaseType: 21
