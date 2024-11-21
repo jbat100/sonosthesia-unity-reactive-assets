@@ -50,8 +50,9 @@ MonoBehaviour:
   _gates:
   - {fileID: 8795625315958673761}
   - {fileID: 8502338822146874328}
-  _streamContainers:
+  _inputs:
   - {fileID: 0}
+  _relay: {fileID: 0}
   _configuration: {fileID: 11400000, guid: adbcc659594604dcb81129e44a8a3b5c, type: 2}
   _processor: {fileID: 0}
 --- !u!114 &8795625315958673761
@@ -68,7 +69,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bypass: 0
   _source: 0
-  _actor: 1
+  _actor: 0
   _layers:
     m_Bits: 4
   _match: 3

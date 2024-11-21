@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9153238389417075693}
   - component: {fileID: 8093632058123432723}
   m_Layer: 0
-  m_Name: TouchFMODEmitter
+  m_Name: TouchFMODInstance
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
