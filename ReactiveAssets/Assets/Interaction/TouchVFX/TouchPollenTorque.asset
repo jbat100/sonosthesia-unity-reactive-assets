@@ -22,7 +22,7 @@ MonoBehaviour:
     _space: 0
     _direction: {x: 0, y: 0, z: 0}
     _postProcessing: -1
-    _scale: 100
+    _scale: 5
   _intensity:
     _trackValue: 0
     _filter: 0
