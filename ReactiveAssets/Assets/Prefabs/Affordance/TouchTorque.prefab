@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8405444755033802149}
   - component: {fileID: 3875263316340115291}
   - component: {fileID: 6933903912168523639}
+  - component: {fileID: 914433133792866921}
   m_Layer: 0
   m_Name: TouchTorque
   m_TagString: Untagged
@@ -51,6 +52,7 @@ MonoBehaviour:
   _gates:
   - {fileID: 3875263316340115291}
   - {fileID: 6933903912168523639}
+  - {fileID: 914433133792866921}
   _inputs: []
   _relay: {fileID: 8405444755033802149}
   _target: {fileID: 0}
@@ -102,3 +104,17 @@ MonoBehaviour:
   _layers:
     m_Bits: 0
   _match: 1
+--- !u!114 &914433133792866921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3394577682984400037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e71d0360ca4d3eb234f6991600d2e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _bypass: 0
+  _start: 0

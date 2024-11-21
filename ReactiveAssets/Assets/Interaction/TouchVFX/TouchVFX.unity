@@ -560,11 +560,6 @@ PrefabInstance:
       propertyPath: _domains.Array.data[0]
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3193657294306831492, guid: b56487cdc40756445bc2d6ea8398a013,
-        type: 3}
-      propertyPath: _log
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3202840649890186709, guid: b56487cdc40756445bc2d6ea8398a013,
         type: 3}
       propertyPath: _inputs.Array.size
