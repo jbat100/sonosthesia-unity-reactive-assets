@@ -159,7 +159,7 @@ MonoBehaviour:
         _max: 1
     _releaseType: 21
   _displacement:
-    _trackValue: 0
+    _trackValue: 1
     _filter: 0
     _oneEuroFilter:
       _beta: 0.1
@@ -200,13 +200,13 @@ MonoBehaviour:
       _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
-      _normalizedDistance: 0
+      _normalizedDistance: 1
       _actorModulationType: 1
       _actorModulation:
         _strategy: 1
         _scale: 1
         _offset: 0
-      _postProcessing: 1
+      _postProcessing: 3
       _curve:
         serializedVersion: 2
         m_Curve:
@@ -253,7 +253,7 @@ MonoBehaviour:
         _fromMin: 0
         _fromMax: 1
         _toMin: 0
-        _toMax: 0.01
+        _toMax: 0.03
       _clamp:
         _min: 0
         _max: 1
@@ -347,7 +347,7 @@ MonoBehaviour:
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 2
+      _staticValue: 10
       _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
