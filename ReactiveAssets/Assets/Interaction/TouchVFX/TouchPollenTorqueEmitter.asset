@@ -24,12 +24,12 @@ MonoBehaviour:
     _strategy: 0
     _drag: 0
   _volume:
-    _trackValue: 1
+    _trackValue: 0
     _filter: 0
     _oneEuroFilter:
       _beta: 0.1
       _minCutoff: 0.1
-    _type: 0
+    _type: 1
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
@@ -59,7 +59,7 @@ MonoBehaviour:
         _min: 0
         _max: 0
     _valueScaleExtractor:
-      _extractorType: 1
+      _extractorType: 2
       _extractor: {fileID: 0}
       _staticValue: 1
       _velocityType: 0
@@ -71,7 +71,7 @@ MonoBehaviour:
         _strategy: 1
         _scale: 1
         _offset: 0
-      _postProcessing: 0
+      _postProcessing: 2
       _curve:
         serializedVersion: 2
         m_Curve: []
@@ -82,12 +82,12 @@ MonoBehaviour:
         _fromMin: 0
         _fromMax: 1
         _toMin: 0
-        _toMax: 1
+        _toMax: 4
       _clamp:
         _min: 0
         _max: 0
     _timeScaleExtractor:
-      _extractorType: 1
+      _extractorType: 2
       _extractor: {fileID: 0}
       _staticValue: 1
       _velocityType: 0
@@ -99,7 +99,7 @@ MonoBehaviour:
         _strategy: 1
         _scale: 1
         _offset: 0
-      _postProcessing: 0
+      _postProcessing: 6
       _curve:
         serializedVersion: 2
         m_Curve: []
@@ -110,10 +110,10 @@ MonoBehaviour:
         _fromMin: 0
         _fromMax: 1
         _toMin: 0
-        _toMax: 1
+        _toMax: 5
       _clamp:
         _min: 0
-        _max: 0
+        _max: 10
     _envelope:
       _envelopeType: 1
       _constantValue: 1
@@ -125,7 +125,7 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-      _phasedType: 2
+      _phasedType: 0
       _attack:
         _easeType: 14
         _duration: 0.1
@@ -134,9 +134,9 @@ MonoBehaviour:
         _duration: 0.3
       _release:
         _easeType: 14
-        _duration: 1
+        _duration: 2
       _hold: 1
-      _sustain: 0.5
+      _sustain: 0.8
     _releaseExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
@@ -172,7 +172,7 @@ MonoBehaviour:
     _oneEuroFilter:
       _beta: 0.1
       _minCutoff: 0.1
-    _type: 0
+    _type: 1
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
@@ -202,7 +202,7 @@ MonoBehaviour:
         _min: 0
         _max: 0
     _valueScaleExtractor:
-      _extractorType: 1
+      _extractorType: 2
       _extractor: {fileID: 0}
       _staticValue: 1
       _velocityType: 0
@@ -214,7 +214,7 @@ MonoBehaviour:
         _strategy: 1
         _scale: 1
         _offset: 0
-      _postProcessing: 0
+      _postProcessing: 2
       _curve:
         serializedVersion: 2
         m_Curve: []
@@ -225,12 +225,12 @@ MonoBehaviour:
         _fromMin: 0
         _fromMax: 1
         _toMin: 0
-        _toMax: 1
+        _toMax: 2
       _clamp:
         _min: 0
         _max: 0
     _timeScaleExtractor:
-      _extractorType: 1
+      _extractorType: 2
       _extractor: {fileID: 0}
       _staticValue: 1
       _velocityType: 0
@@ -242,7 +242,7 @@ MonoBehaviour:
         _strategy: 1
         _scale: 1
         _offset: 0
-      _postProcessing: 0
+      _postProcessing: 2
       _curve:
         serializedVersion: 2
         m_Curve: []
@@ -253,7 +253,7 @@ MonoBehaviour:
         _fromMin: 0
         _fromMax: 1
         _toMin: 0
-        _toMax: 1
+        _toMax: 10
       _clamp:
         _min: 0
         _max: 0
@@ -268,7 +268,7 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-      _phasedType: 2
+      _phasedType: 0
       _attack:
         _easeType: 14
         _duration: 0.1

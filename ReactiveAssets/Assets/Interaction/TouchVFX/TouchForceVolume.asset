@@ -9,27 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae2a2fe3573d4269922eb2c7719ba152, type: 3}
-  m_Name: TouchPollenTorque
+  m_Script: {fileID: 11500000, guid: 8931b4b550f64113970727227227e5ac, type: 3}
+  m_Name: TouchForceVolume
   m_EditorClassIdentifier: 
-  _track: 0
-  _forceMode: 0
-  _relative: 0
-  _torque:
-    _extractorType: 4
-    _extractor: {fileID: 0}
-    _velocityType: 0
-    _space: 0
-    _direction: {x: 0, y: 0, z: 0}
-    _postProcessing: -1
-    _scale: 3
-  _intensity:
+  _settings:
     _trackValue: 0
     _filter: 0
     _oneEuroFilter:
       _beta: 0.1
       _minCutoff: 0.1
-    _type: 1
+    _type: 2
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
@@ -57,9 +46,9 @@ MonoBehaviour:
         _toMax: 1
       _clamp:
         _min: 0
-        _max: 1
+        _max: 0
     _valueScaleExtractor:
-      _extractorType: 2
+      _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
       _velocityType: 0
@@ -71,7 +60,7 @@ MonoBehaviour:
         _strategy: 1
         _scale: 1
         _offset: 0
-      _postProcessing: 4
+      _postProcessing: 0
       _curve:
         serializedVersion: 2
         m_Curve: []
@@ -85,7 +74,7 @@ MonoBehaviour:
         _toMax: 1
       _clamp:
         _min: 0
-        _max: 1
+        _max: 0
     _timeScaleExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
@@ -113,7 +102,7 @@ MonoBehaviour:
         _toMax: 1
       _clamp:
         _min: 0
-        _max: 1
+        _max: 0
     _envelope:
       _envelopeType: 1
       _constantValue: 1
@@ -128,15 +117,15 @@ MonoBehaviour:
       _phasedType: 2
       _attack:
         _easeType: 14
-        _duration: 0.1
+        _duration: 1
       _decay:
         _easeType: 14
-        _duration: 0.3
+        _duration: 0
       _release:
         _easeType: 14
         _duration: 1
       _hold: 1
-      _sustain: 0.5
+      _sustain: 1
     _releaseExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
@@ -164,5 +153,5 @@ MonoBehaviour:
         _toMax: 1
       _clamp:
         _min: 0
-        _max: 1
+        _max: 0
     _releaseType: 14

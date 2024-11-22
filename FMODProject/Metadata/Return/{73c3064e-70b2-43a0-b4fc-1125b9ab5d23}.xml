@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerReturn" id="{73c3064e-70b2-43a0-b4fc-1125b9ab5d23}">
 		<property name="volume">
-			<value>-10</value>
+			<value>-5.5</value>
 		</property>
 		<property name="overridingInputFormat">
 			<value>2</value>

@@ -178,12 +178,12 @@ MonoBehaviour:
   _meshOptimization: 0
   _path: {fileID: 8295874935520019920}
   _processor: {fileID: 7984819864173493831}
-  _segments: 1000
+  _segments: 200
   _scale: 0.008
   _fade: 0
   m_VStrategy: 5
   _range: {x: 0, y: 1}
-  _parallel: 0
+  _parallel: 1
   _segmentContainer: {fileID: 11400000, guid: bd5267aa1c58540e8bc5654c924575ae, type: 2}
 --- !u!23 &360785358411590438
 MeshRenderer:
@@ -239,6 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b979b64a6be84d82a5a1aaead50707dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 2818040158386755732}
   _distinct: 1
   _processingFactory: {fileID: 0}
@@ -261,6 +262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b979b64a6be84d82a5a1aaead50707dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 3846324204579103091}
   _distinct: 1
   _processingFactory: {fileID: 0}
@@ -554,6 +556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69ec689ef4e641ba880afcdf2ae8e50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 8541381368034292972}
   _distinct: 1
   _processingFactory: {fileID: 0}
@@ -648,6 +651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e9eb63d2e1644e7bb8c99d56b013b9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 3346171181153395817}
   _distinct: 1
   _processingFactory: {fileID: 0}
@@ -711,6 +715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c69ec689ef4e641ba880afcdf2ae8e50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _log: 0
   _source: {fileID: 0}
   _distinct: 1
   _processingFactory: {fileID: 0}
@@ -1772,7 +1777,7 @@ PrefabInstance:
     - target: {fileID: 1639788604705915434, guid: 70984611642feeb43a40866dce81b199,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7996035271516761040, guid: 70984611642feeb43a40866dce81b199,
         type: 3}
@@ -1783,7 +1788,7 @@ PrefabInstance:
         type: 3}
       propertyPath: _configuration
       value: 
-      objectReference: {fileID: 11400000, guid: dc637a230f7f82145b4f3906e1d479fb,
+      objectReference: {fileID: 11400000, guid: 20c56e584a8e9784793c92c849463522,
         type: 2}
     - target: {fileID: 7996035271516761040, guid: 70984611642feeb43a40866dce81b199,
         type: 3}

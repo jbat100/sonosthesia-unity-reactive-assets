@@ -12,7 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 319c0a1b9bc74c50bfc3d9848c6657f0, type: 3}
   m_Name: Pollen
   m_EditorClassIdentifier: 
-  _description: This scene shows a pollen VFX with torque, intensity and turbulence
-    affordances.
-  _scenePath: Interaction/TouchVFX/TouchVFX
+  _description: This scene shows a pollen composituib using VFX and torus.
+  _scenePath: Scenes/Pollen
   _image: {fileID: 21300000, guid: c2dc56346e6bc422ba9e150c06b797e5, type: 3}

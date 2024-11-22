@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _settings:
     _trackValue: 1
-    _filter: 0
+    _filter: 1
     _oneEuroFilter:
       _beta: 0.1
       _minCutoff: 0.1
@@ -43,7 +43,7 @@ MonoBehaviour:
         _fromMin: 0
         _fromMax: 1
         _toMin: 0
-        _toMax: 1
+        _toMax: 0.1
       _clamp:
         _min: 0
         _max: 1

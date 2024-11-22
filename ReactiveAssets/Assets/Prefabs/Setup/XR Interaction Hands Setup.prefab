@@ -226,6 +226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ActionAssets:
   - {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  - {fileID: -944628639613478452, guid: ae0a07086801e294a8ac34e6269722c3, type: 3}
 --- !u!1001 &5289989397430331058
 PrefabInstance:
   m_ObjectHideFlags: 0
