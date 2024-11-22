@@ -208,6 +208,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinch
       objectReference: {fileID: 0}
+    - target: {fileID: 2218241171131073595, guid: 6787dd47c4207a34fb09b694c83c0513,
+        type: 3}
+      propertyPath: _domain
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8012325811242013325, guid: 6787dd47c4207a34fb09b694c83c0513,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -292,6 +297,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fist
+      objectReference: {fileID: 0}
+    - target: {fileID: 2218241171131073595, guid: 6787dd47c4207a34fb09b694c83c0513,
+        type: 3}
+      propertyPath: _domain
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8012325811242013325, guid: 6787dd47c4207a34fb09b694c83c0513,
         type: 3}
@@ -456,6 +466,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Open
+      objectReference: {fileID: 0}
+    - target: {fileID: 2218241171131073595, guid: 6787dd47c4207a34fb09b694c83c0513,
+        type: 3}
+      propertyPath: _domain
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8012325811242013325, guid: 6787dd47c4207a34fb09b694c83c0513,
         type: 3}

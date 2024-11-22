@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Samples/XR Hands/1.5.0/HandVisualizer/HandVisualizer.unity
-    guid: ab7acf0d9677fbe4db51bc36647d4fcb
-  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: ffc5af891400944ceb7e17aa21cb9c78
   - enabled: 1
