@@ -162,7 +162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bypass: 0
   _source: 0
-  _actor: 0
+  _actor: 1
   _domains: 02000000
 --- !u!1 &6452868451091368481
 GameObject:
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _bypass: 0
   _source: 0
-  _actor: 0
+  _actor: 1
   _domains: 03000000
 --- !u!1 &8289079454653581248
 GameObject:

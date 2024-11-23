@@ -107,7 +107,7 @@ MonoBehaviour:
         _fromMin: 0
         _fromMax: 1
         _toMin: 0
-        _toMax: 3
+        _toMax: 10
       _clamp:
         _min: 0
         _max: 0
