@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.meta.xr.sdk.core": "71.0.0",
     "com.nobi.roundedcorners": "https://github.com/kirevdokimov/Unity-UI-Rounded-Corners.git",
     "com.sonosthesia.adaptivemidi": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.adaptivemidi",
     "com.sonosthesia.application": "file:../../../sonosthesia-unity-packages/packages/com.sonosthesia.application",
@@ -54,7 +55,6 @@
     "com.unity.xr.hands": "1.5.0",
     "com.unity.xr.interaction.toolkit": "2.5.4",
     "com.unity.xr.oculus": "4.2.0",
-    "com.unity.xr.openxr": "1.10.0",
     "jp.hadashikick.vcontainer": "1.16.4",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
