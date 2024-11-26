@@ -10,29 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8931b4b550f64113970727227227e5ac, type: 3}
-  m_Name: PinchSpark2Amplitude
+  m_Name: PinchVolume
   m_EditorClassIdentifier: 
   _settings:
-    _trackValue: 1
+    _trackValue: 0
     _filter: 0
     _oneEuroFilter:
       _beta: 0.1
       _minCutoff: 0.1
     _type: 2
     _constantExtractor:
-      _extractorType: 3
+      _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
       _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
-      _normalizedDistance: 1
+      _normalizedDistance: 0
       _actorModulationType: 0
       _actorModulation:
         _strategy: 1
         _scale: 1
         _offset: 0
-      _postProcessing: 1
+      _postProcessing: 0
       _curve:
         serializedVersion: 2
         m_Curve: []
@@ -42,64 +42,28 @@ MonoBehaviour:
       _remap:
         _fromMin: 0
         _fromMax: 1
-        _toMin: 2
-        _toMax: 0
+        _toMin: 0
+        _toMax: 1
       _clamp:
         _min: 0
         _max: 0
     _valueScaleExtractor:
-      _extractorType: 3
+      _extractorType: 1
       _extractor: {fileID: 0}
       _staticValue: 1
       _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
-      _normalizedDistance: 1
+      _normalizedDistance: 0
       _actorModulationType: 0
       _actorModulation:
         _strategy: 1
         _scale: 1
         _offset: 0
-      _postProcessing: 3
+      _postProcessing: 0
       _curve:
         serializedVersion: 2
-        m_Curve:
-        - serializedVersion: 3
-          time: 0
-          value: 0
-          inSlope: 0.11881856
-          outSlope: 0.11881856
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0.18400794
-        - serializedVersion: 3
-          time: 0.66614354
-          value: 0.15
-          inSlope: 0.42254144
-          outSlope: 0.42254144
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.14617807
-          outWeight: 0.29724258
-        - serializedVersion: 3
-          time: 0.84123373
-          value: 0.99770737
-          inSlope: -0.019401334
-          outSlope: -0.019401334
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.33333334
-          outWeight: 0.1006878
-        - serializedVersion: 3
-          time: 1
-          value: 0.2
-          inSlope: 0.20011532
-          outSlope: 0.20011532
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0.17366125
-          outWeight: 0
+        m_Curve: []
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
@@ -107,7 +71,7 @@ MonoBehaviour:
         _fromMin: 0
         _fromMax: 1
         _toMin: 0
-        _toMax: 7
+        _toMax: 1
       _clamp:
         _min: 0
         _max: 0
@@ -153,7 +117,7 @@ MonoBehaviour:
       _phasedType: 4
       _attack:
         _easeType: 14
-        _duration: 0.5
+        _duration: 2
       _decay:
         _easeType: 14
         _duration: 0.3

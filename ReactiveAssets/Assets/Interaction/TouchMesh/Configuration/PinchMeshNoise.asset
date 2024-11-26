@@ -206,7 +206,7 @@ MonoBehaviour:
     _valueScaleExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 0.3
+      _staticValue: 0.7
       _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
@@ -273,7 +273,7 @@ MonoBehaviour:
       _phasedType: 4
       _attack:
         _easeType: 11
-        _duration: 0.2
+        _duration: 1
       _decay:
         _easeType: 21
         _duration: 0.5

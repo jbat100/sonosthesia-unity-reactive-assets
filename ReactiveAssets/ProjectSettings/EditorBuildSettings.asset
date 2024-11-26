@@ -12,38 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Pollen.unity
     guid: 86646cb96eb26e94684a5c2759bbc33a
   - enabled: 1
-    path: Assets/Interaction/TouchFMOD/TouchFMOD.unity
-    guid: e7dc0b05eefac464daa96e68c03c0fbf
-  - enabled: 1
-    path: Assets/Interaction/TouchMesh/TouchSphere.unity
-    guid: e85c70b71c92b4dceafb3ef89438694c
-  - enabled: 1
-    path: Assets/Interaction/TouchVFX/TouchVFX.unity
-    guid: e0a08127a2c364341bda5369b414230c
-  - enabled: 1
-    path: Assets/Interaction/TouchTorus/TouchTorus.unity
-    guid: 9cdb3be2bbb9e45299eae3b46ee50500
-  - enabled: 1
-    path: Assets/Interaction/TouchTest/TouchTest.unity
-    guid: a2de9ba81af02d9419f02d03731664ba
-  - enabled: 1
-    path: Assets/Interaction/DynamicMesh/SphereDeform.unity
-    guid: 17bd8997fd3984d0eb9b96bd60c9bf30
-  - enabled: 1
-    path: Assets/Playground/DI/DITestRoot.unity
-    guid: 76e956e6b55524c228bbcc191f2bd414
-  - enabled: 1
-    path: Assets/Playground/DI/Test1.unity
-    guid: 9c539325766014405b45de5bb08e65fe
-  - enabled: 1
-    path: Assets/Playground/DI/Test2.unity
-    guid: 94762c33b79074c99bcce7df7da96af7
-  - enabled: 1
-    path: Assets/Playground/DI/Test3.unity
-    guid: 962d25804dd15478584a6104ff236f14
-  - enabled: 1
-    path: Assets/UI/Playable.unity
-    guid: 5db3248ddc9504496bef2f47da303d84
+    path: Assets/Scenes/Spark.unity
+    guid: 6c5548a01dff0494989bf992d852bcef
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: cd185e1184bf62a45a4d6967a30fa662,
       type: 2}
