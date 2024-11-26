@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _noiseType: 3
   _crossFadeType: 14
-  _frequency: 10
+  _frequency: 7
   _actorTracking:
     _strategy: 2
     _drag: 0
@@ -270,10 +270,10 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-      _phasedType: 2
+      _phasedType: 4
       _attack:
         _easeType: 11
-        _duration: 0.2
+        _duration: 1
       _decay:
         _easeType: 21
         _duration: 0.5

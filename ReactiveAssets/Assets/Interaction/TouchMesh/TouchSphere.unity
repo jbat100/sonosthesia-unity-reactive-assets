@@ -1048,7 +1048,7 @@ MonoBehaviour:
   _gates:
   - {fileID: 974048000}
   _inputs:
-  - {fileID: 632182925}
+  - {fileID: 1200464747}
   _relay: {fileID: 0}
   _configuration: {fileID: 11400000, guid: 0c77976c18c1acb459d4c0909d7a0687, type: 2}
   _controller: {fileID: 1122752632}
@@ -1101,8 +1101,7 @@ MonoBehaviour:
     TypeName: 
   autoRun: 1
   autoInjectGameObjects:
-  - {fileID: 1122752629}
-  - {fileID: 6719680396315998136}
+  - {fileID: 963647140}
 --- !u!4 &974465661
 Transform:
   m_ObjectHideFlags: 0
@@ -1297,17 +1296,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _frameModerator: {fileID: 0}
   _gizmoMode: 0
-  _rebuildOnUpdate: 1
-  _rebuildFrequency: 0
+  _rebuildOnUpdate: 0
+  _rebuildFrequency: 30
   _recalculateBounds: 0
-  _recalculateNormals: 1
+  _recalculateNormals: 0
   _recalculateTangents: 0
   _meshOptimization: 0
   _meshType: 7
   _resolution: 50
   _displacement: 0.5
-  _cacheMesh: 0
-  _normalCompute: 0
+  _cacheMesh: 1
+  _normalCompute: 2
   _summationPoolSize: 4
   _planeDeformationMask:
     _active: 0
@@ -1855,6 +1854,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 26522203}
     m_Modifications:
+    - target: {fileID: 1490891323788449578, guid: dee721351cd1f4e96852fda26e23697d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3308505280549200444, guid: dee721351cd1f4e96852fda26e23697d,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -2054,7 +2058,7 @@ PrefabInstance:
     - target: {fileID: 1490891323788449578, guid: dee721351cd1f4e96852fda26e23697d,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1490891323788449578, guid: dee721351cd1f4e96852fda26e23697d,
         type: 3}
