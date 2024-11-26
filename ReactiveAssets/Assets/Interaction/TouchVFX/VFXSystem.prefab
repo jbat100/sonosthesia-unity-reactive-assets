@@ -427,17 +427,17 @@ PrefabInstance:
     - target: {fileID: 1781343808983997799, guid: b56487cdc40756445bc2d6ea8398a013,
         type: 3}
       propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.x
-      value: 8.732587
+      value: 0.74901956
       objectReference: {fileID: 0}
     - target: {fileID: 1781343808983997799, guid: b56487cdc40756445bc2d6ea8398a013,
         type: 3}
       propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.y
-      value: 1.0972885
+      value: 0.09411765
       objectReference: {fileID: 0}
     - target: {fileID: 1781343808983997799, guid: b56487cdc40756445bc2d6ea8398a013,
         type: 3}
       propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.z
-      value: 5.767379
+      value: 0.494685
       objectReference: {fileID: 0}
     - target: {fileID: 3202840649890186709, guid: b56487cdc40756445bc2d6ea8398a013,
         type: 3}
@@ -543,6 +543,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.z
       value: 5.97867
+      objectReference: {fileID: 0}
+    - target: {fileID: 9166788846813557548, guid: b56487cdc40756445bc2d6ea8398a013,
+        type: 3}
+      propertyPath: _postProcessor._offset
+      value: 1.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -695,17 +700,17 @@ PrefabInstance:
     - target: {fileID: 234690334878813187, guid: df5eb295ea9e6e0478ba8b93b4c915bc,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1063683686904745260, guid: df5eb295ea9e6e0478ba8b93b4c915bc,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2789170142880484934, guid: df5eb295ea9e6e0478ba8b93b4c915bc,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3640599380966314570, guid: df5eb295ea9e6e0478ba8b93b4c915bc,
         type: 3}
@@ -825,17 +830,17 @@ PrefabInstance:
     - target: {fileID: 1781343808983997799, guid: b56487cdc40756445bc2d6ea8398a013,
         type: 3}
       propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.x
-      value: 1.0972885
+      value: 0.09411765
       objectReference: {fileID: 0}
     - target: {fileID: 1781343808983997799, guid: b56487cdc40756445bc2d6ea8398a013,
         type: 3}
       propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.y
-      value: 8.732587
+      value: 0.74901956
       objectReference: {fileID: 0}
     - target: {fileID: 1781343808983997799, guid: b56487cdc40756445bc2d6ea8398a013,
         type: 3}
       propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.z
-      value: 2.276729
+      value: 0.19528173
       objectReference: {fileID: 0}
     - target: {fileID: 1936805055446901085, guid: b56487cdc40756445bc2d6ea8398a013,
         type: 3}
@@ -956,6 +961,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PropertySheet.m_Vector4f.m_Array.Array.data[0].m_Value.z
       value: 1.0972885
+      objectReference: {fileID: 0}
+    - target: {fileID: 9166788846813557548, guid: b56487cdc40756445bc2d6ea8398a013,
+        type: 3}
+      propertyPath: _postProcessor._offset
+      value: 1.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1800,11 +1810,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9166788846813557548, guid: b56487cdc40756445bc2d6ea8398a013,
-        type: 3}
-      propertyPath: _postProcessor._offset
-      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

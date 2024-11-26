@@ -156,9 +156,6 @@ GameObject:
   - component: {fileID: 4835734633746752965}
   - component: {fileID: 464814607401233988}
   - component: {fileID: 1781343808983997799}
-  - component: {fileID: 3324499987870378755}
-  - component: {fileID: 6655214718592971268}
-  - component: {fileID: 6889559234214126867}
   m_Layer: 0
   m_Name: VFX
   m_TagString: Untagged
@@ -260,7 +257,7 @@ VisualEffect:
       m_Array: []
     m_Vector4f:
       m_Array:
-      - m_Value: {x: 7.5003805, y: 8.732588, z: 1.0709766, w: 0}
+      - m_Value: {x: 0.6433296, y: 0.7490197, z: 0.0918608, w: 0}
         m_Name: Color
         m_Overridden: 1
     m_Uint:
@@ -280,60 +277,6 @@ VisualEffect:
       m_Array: []
     m_Bool:
       m_Array: []
---- !u!114 &3324499987870378755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5580802450445500908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _source: {fileID: 3535878268184546069}
-  _distinct: 1
-  _processingFactory: {fileID: 0}
-  _targetBlend: 1
-  _visualEffect: {fileID: 1781343808983997799}
-  _nameID: TurbulenceIntensity
---- !u!114 &6655214718592971268
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5580802450445500908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _source: {fileID: 9166788846813557548}
-  _distinct: 1
-  _processingFactory: {fileID: 0}
-  _targetBlend: 1
-  _visualEffect: {fileID: 1781343808983997799}
-  _nameID: ColorIntensity
---- !u!114 &6889559234214126867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5580802450445500908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _source: {fileID: 3193657294306831492}
-  _distinct: 1
-  _processingFactory: {fileID: 0}
-  _targetBlend: 1
-  _visualEffect: {fileID: 1781343808983997799}
-  _nameID: ColorIntensityBoost
 --- !u!1 &8618158829586948097
 GameObject:
   m_ObjectHideFlags: 0
@@ -343,6 +286,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7084367161604909683}
+  - component: {fileID: 9169930476787497705}
   - component: {fileID: 3535878268184546069}
   - component: {fileID: 7085791640318557676}
   m_Layer: 0
@@ -367,6 +311,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8395597576818571694}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9169930476787497705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8618158829586948097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _source: {fileID: 3535878268184546069}
+  _distinct: 1
+  _processingFactory: {fileID: 0}
+  _targetBlend: 1
+  _visualEffect: {fileID: 1781343808983997799}
+  _nameID: TurbulenceIntensity
 --- !u!114 &3535878268184546069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,6 +381,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5337133180589335984}
   - component: {fileID: 3193657294306831492}
+  - component: {fileID: 1800909334441774446}
   m_Layer: 0
   m_Name: Boost
   m_TagString: Untagged
@@ -462,6 +426,25 @@ MonoBehaviour:
     _offset: 0
     _clamp: 0
     _clampRange: {x: 0, y: 0}
+--- !u!114 &1800909334441774446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8659917713994379141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _source: {fileID: 3193657294306831492}
+  _distinct: 1
+  _processingFactory: {fileID: 0}
+  _targetBlend: 1
+  _visualEffect: {fileID: 1781343808983997799}
+  _nameID: ColorIntensityBoost
 --- !u!1001 &3397784069744485894
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -644,10 +627,19 @@ PrefabInstance:
       propertyPath: _domains.Array.data[0]
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5006942452351941085, guid: 731b635d4e320b5448187daa181ffb0f,
+        type: 3}
+      propertyPath: _postProcessor._offset
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 284875661418844873, guid: 731b635d4e320b5448187daa181ffb0f,
+        type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 2972542967817405109}
   m_SourcePrefab: {fileID: 100100000, guid: 731b635d4e320b5448187daa181ffb0f, type: 3}
 --- !u!4 &3204228707952317002 stripped
 Transform:
@@ -655,13 +647,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4200383193785240305}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4160999109996664888 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 284875661418844873, guid: 731b635d4e320b5448187daa181ffb0f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4200383193785240305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2972542967817405109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4160999109996664888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90ee9ce03819647ceab36adc581ca40c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 0
+  _source: {fileID: 9166788846813557548}
+  _distinct: 1
+  _processingFactory: {fileID: 0}
+  _targetBlend: 1
+  _visualEffect: {fileID: 1781343808983997799}
+  _nameID: ColorIntensity
 --- !u!114 &9166788846813557548 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5006942452351941085, guid: 731b635d4e320b5448187daa181ffb0f,
     type: 3}
   m_PrefabInstance: {fileID: 4200383193785240305}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 4160999109996664888}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 778c158547c844f18a2a2e7f87d96923, type: 3}
