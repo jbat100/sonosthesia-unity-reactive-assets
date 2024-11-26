@@ -51,12 +51,12 @@ Material:
     - _QueueOffset: 0
     - _Scroll1: 0
     - _Scroll2: 0
-    - _Smoothness: 0
+    - _Smoothness: 0.7
     m_Colors:
-    - _NegativeColor: {r: 0.4528302, g: 0.20932713, b: 0.20932713, a: 0}
+    - _NegativeColor: {r: 0.59748423, g: 0.26116446, b: 0.26116446, a: 0}
     - _NegativeSpark: {r: 0.2856758, g: 0.3018868, b: 0.15474069, a: 0}
     - _PositiveColor: {r: 0, g: 0, b: 0, a: 0}
-    - _PositiveSpark: {r: 3.7960784, g: 4, b: 2.1490197, a: 0}
+    - _PositiveSpark: {r: 5.686675, g: 5.9921575, b: 3.2193162, a: 0}
     - _RestColor: {r: 0, g: 0, b: 0, a: 0}
     - _RestSpark: {r: 0.95097196, g: 1, b: 0.5377357, a: 0}
   m_BuildTextureStacks: []

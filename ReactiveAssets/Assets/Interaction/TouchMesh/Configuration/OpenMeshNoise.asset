@@ -206,7 +206,7 @@ MonoBehaviour:
     _valueScaleExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 0.7
+      _staticValue: 0.5
       _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1
@@ -321,7 +321,7 @@ MonoBehaviour:
     _constantExtractor:
       _extractorType: 1
       _extractor: {fileID: 0}
-      _staticValue: 1
+      _staticValue: 2
       _velocityType: 0
       _distanceType: 0
       _distanceAxes: -1

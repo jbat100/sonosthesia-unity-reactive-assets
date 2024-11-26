@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{50f47c43-4140-4e73-9c67-f9d3f64a0055}">
+	<object class="AudioFile" id="{2e23fe10-c648-4f0a-8011-6df408ddcae6}">
 		<property name="assetPath">
-			<value>Electricity/ES_Force Field, Pulsing, Distorted Bass - Epidemic Sound.mp3</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>Impact/ES_Particle Gun, Shoot, Gooey Splatter 01 - Epidemic Sound.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -14,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>23.544</value>
+			<value>8.6159999999999997</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{37f295bd-c32e-48e2-bb8e-4e14b79f7c0d}</destination>

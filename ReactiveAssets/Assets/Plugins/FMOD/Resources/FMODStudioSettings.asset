@@ -481,6 +481,7 @@ MonoBehaviour:
   - GUI
   - Music
   - Pollen
+  - Spark
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0

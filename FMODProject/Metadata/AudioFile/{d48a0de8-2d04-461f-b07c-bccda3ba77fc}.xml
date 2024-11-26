@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{397ef745-58f6-431a-994f-973c84930356}">
+	<object class="AudioFile" id="{d48a0de8-2d04-461f-b07c-bccda3ba77fc}">
 		<property name="assetPath">
-			<value>Unsorted/ES_Scifi Whoosh, Fly, Swing - Epidemic Sound.mp3</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>Impact/ES_Sniper Rifle, Full Sequence - Epidemic Sound.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -14,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>314.32799999999997</value>
+			<value>9.5760000000000005</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{37f295bd-c32e-48e2-bb8e-4e14b79f7c0d}</destination>
