@@ -1,24 +1,51 @@
 # sonosthesia-unity-reactive-assets
 
-# Build for Quest
+This project demonstrates [sonosthesia](https://github.com/jbat100/sonosthesia-documentation) unity packages which allow XR interaction with procedural graphics and sound. These interactions combine a number of different techniques:
 
-I had a bit of a nightmare importing the Meta SDKs, it broke most of my stuff, it's very opinionated and there isn't much documentation on how to get it to run alongside the XR interaction toolkit
+- physics collisions and triggers (using [Unity Physics](https://docs.unity3d.com/Manual/PhysicsSection.html))
+- hand shape analysis and pose detection (using [XR Hands](https://docs.unity3d.com/Packages/com.unity.xr.hands@1.5/manual/index.html))
+- continuous data flow and processing based on [Rx](https://github.com/neuecc/UniRx)
+- a custom affordance system based on interaction sources and actors
 
-https://developers.meta.com/horizon/documentation/unity/unity-prepare-for-publish
-https://unity.com/blog/engine-platform/get-started-developing-for-quest-3-with-unity
+# Demo Scenes
 
-Trying to get hand tracking:
-- oculus build settings specify hand tracking 
-- oculus xr plugin gives me no hands
-- open xr with both controller and hands gives me hands but no actors and permanent UI beams like shape is not detected 
+### Pollen
 
-# Tips and Tricks
 
-### Cleanup Unity files
 
-Library delete can be extremely slow on Windows if done in the normal Recycle Bin way
+### Spark
 
-This is nearly instantaneous
+# Test Scenes
 
-del /f/s/q Library > nul
-rmdir /s/q Library
+# Packages
+
+### Data Flow
+
+- [com.sonosthesia.signal](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.signal)
+- [com.sonosthesia.channel](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.channel)
+- [com.sonosthesia.envelope](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.envelope)
+- [com.sonosthesia.trigger](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.trigger)
+
+### Interaction
+
+- [com.sonosthesia.dynamic](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.dynamic)
+- [com.sonosthesia.interaction](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.interaction)
+- [com.sonosthesia.touch](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.touch)
+
+### Procedural Graphics 
+
+- [com.sonosthesia.noise](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.noise)
+- [com.sonosthesia.mesh](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.mesh)
+- [com.sonosthesia.deform](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.deform)
+- [com.sonosthesia.trajectory](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.trajectory)
+
+### Procedural Sound
+
+- [com.sonosthesia.audio](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.audio)
+- [com.sonosthesia.fmod](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.fmod)
+
+### Glue
+
+- [com.sonosthesia.deforminteraction](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.deforminteraction)
+- [com.sonosthesia.fmodinteraction](https://github.com/jbat100/sonosthesia-unity-packages/tree/main/packages/com.sonosthesia.fmodinteraction)
+
