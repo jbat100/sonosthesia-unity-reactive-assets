@@ -132,8 +132,14 @@
 	</object>
 	<object class="SingleSound" id="{47693660-eb92-4253-a90f-4d33d43ec75a}">
 		<property name="length">
-			<value>6.6885034013605438</value>
+			<value>6.4385034013605438</value>
 		</property>
+		<property name="timelockedOffset">
+			<value>0.25</value>
+		</property>
+		<relationship name="fadeInCurve">
+			<destination>{59ef068c-0a1b-4149-bdb5-512fedc30261}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{38464a60-bbbc-45cf-8c12-fe2919b4049b}</destination>
 		</relationship>
@@ -168,6 +174,14 @@
 	</object>
 	<object class="MixerBusPanner" id="{9ca5f725-0ddb-419c-964a-2a4843f64c15}" />
 	<object class="MixerBusFader" id="{076dda31-9d76-436f-b647-4d3fffab2c0d}" />
+	<object class="FadeCurve" id="{59ef068c-0a1b-4149-bdb5-512fedc30261}">
+		<relationship name="startPoint">
+			<destination>{d26bf217-0155-48e5-b395-a5df314ccf01}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{6518db70-9cc8-4baf-8454-869b1020fbca}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{5d3db6df-fec6-4516-bf78-28d03d95918b}">
 		<relationship name="effects">
 			<destination>{a1147808-d403-475e-b7ad-e157626caa0a}</destination>
@@ -193,6 +207,25 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{1699caf3-8ba5-421a-9930-f0e923dcd2bc}" />
+	<object class="AutomationPoint" id="{d26bf217-0155-48e5-b395-a5df314ccf01}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.2547189</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{6518db70-9cc8-4baf-8454-869b1020fbca}">
+		<property name="position">
+			<value>0.375</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="ThreeEQEffect" id="{a1147808-d403-475e-b7ad-e157626caa0a}">
 		<property name="highGain">
 			<value>-13.5</value>

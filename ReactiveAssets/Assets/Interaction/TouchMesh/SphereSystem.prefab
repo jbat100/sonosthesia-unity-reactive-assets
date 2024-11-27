@@ -1716,6 +1716,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7481451636257822954}
     m_Modifications:
+    - target: {fileID: 1845861316767478086, guid: 8adc0ef696ae9b540b48d944e2027919,
+        type: 3}
+      propertyPath: _postProcessor._offset
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 3908607802510728028, guid: 8adc0ef696ae9b540b48d944e2027919,
         type: 3}
       propertyPath: m_IsActive

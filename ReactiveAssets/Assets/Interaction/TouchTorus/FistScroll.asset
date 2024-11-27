@@ -48,7 +48,7 @@ MonoBehaviour:
         _min: 0
         _max: 1
     _valueScaleExtractor:
-      _extractorType: 1
+      _extractorType: 4
       _extractor: {fileID: 0}
       _staticValue: 2
       _velocityType: 0
@@ -60,7 +60,7 @@ MonoBehaviour:
         _strategy: 1
         _scale: 1
         _offset: 0
-      _postProcessing: 0
+      _postProcessing: 2
       _curve:
         serializedVersion: 2
         m_Curve:
@@ -106,8 +106,8 @@ MonoBehaviour:
       _remap:
         _fromMin: 0
         _fromMax: 1
-        _toMin: 0
-        _toMax: 1
+        _toMin: 1
+        _toMax: 3
       _clamp:
         _min: 0
         _max: 1
@@ -150,10 +150,10 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-      _phasedType: 2
+      _phasedType: 4
       _attack:
         _easeType: 14
-        _duration: 0.3
+        _duration: 1
       _decay:
         _easeType: 14
         _duration: 0.3

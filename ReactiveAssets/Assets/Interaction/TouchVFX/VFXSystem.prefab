@@ -475,6 +475,12 @@ PrefabInstance:
       propertyPath: _streamContainers.Array.data[0]
       value: 
       objectReference: {fileID: 4467644036446492108}
+    - target: {fileID: 4539458721546313118, guid: b56487cdc40756445bc2d6ea8398a013,
+        type: 3}
+      propertyPath: _configuration
+      value: 
+      objectReference: {fileID: 11400000, guid: 795c08b828c2d6043a028d02126bc282,
+        type: 2}
     - target: {fileID: 4715339307904661315, guid: b56487cdc40756445bc2d6ea8398a013,
         type: 3}
       propertyPath: m_Name
@@ -1762,6 +1768,12 @@ PrefabInstance:
       propertyPath: _streamContainers.Array.data[0]
       value: 
       objectReference: {fileID: 4549032398127808075}
+    - target: {fileID: 4539458721546313118, guid: b56487cdc40756445bc2d6ea8398a013,
+        type: 3}
+      propertyPath: _configuration
+      value: 
+      objectReference: {fileID: 11400000, guid: 6e8c323f52eff0a4ca74106c13a779bb,
+        type: 2}
     - target: {fileID: 4715339307904661315, guid: b56487cdc40756445bc2d6ea8398a013,
         type: 3}
       propertyPath: m_Name

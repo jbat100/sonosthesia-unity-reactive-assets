@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7406852638285065050}
   - component: {fileID: 5423914152586312386}
   m_Layer: 0
-  m_Name: PollenTorqueEmitter2
+  m_Name: Scrape1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,11 +47,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1343105563
-      Data2: 1336066122
-      Data3: -83763307
-      Data4: -171616988
-    Path: event:/Pollen/Heal 2
+      Data1: 1455904061
+      Data2: 1162725680
+      Data3: -365853553
+      Data4: 1936152145
+    Path: event:/Pollen/Scrape
   Event: 
   PlayEvent: 1
   StopEvent: 0

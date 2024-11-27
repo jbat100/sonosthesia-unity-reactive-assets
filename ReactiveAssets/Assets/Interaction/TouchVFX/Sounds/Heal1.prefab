@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7406852638285065050}
   - component: {fileID: 5423914152586312386}
   m_Layer: 0
-  m_Name: PollenTorqueEmitter3
+  m_Name: Heal1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47,11 +47,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -263983406
-      Data2: 1172552517
-      Data3: -1865496700
-      Data4: -1364935156
-    Path: event:/Pollen/Heal 3
+      Data1: 143367502
+      Data2: 1296951119
+      Data3: 379494544
+      Data4: 1764496357
+    Path: event:/Pollen/Heal 1
   Event: 
   PlayEvent: 1
   StopEvent: 0
@@ -59,7 +59,11 @@ MonoBehaviour:
   TriggerOnce: 0
   Preload: 0
   AllowNonRigidbodyDoppler: 0
-  Params: []
+  Params:
+  - Name: Excitation
+    Value: 0
+  - Name: Volume
+    Value: 0
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20

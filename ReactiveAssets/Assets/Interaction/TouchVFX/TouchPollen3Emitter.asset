@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb09755ae9cd43b79b142127195f5fa1, type: 3}
-  m_Name: TouchPollenTorqueEmitter
+  m_Name: TouchPollen3Emitter
   m_EditorClassIdentifier: 
   _emitter:
     _selectorType: 1
@@ -19,7 +19,6 @@ MonoBehaviour:
     _prefabs:
     - {fileID: 5423914152586312386, guid: 05e846cdeac9e40ca935781e97ad4d4e, type: 3}
     - {fileID: 5423914152586312386, guid: c2a0fe0e023144f19a6baf0d197295de, type: 3}
-    - {fileID: 5423914152586312386, guid: 425687822c1f94ce3b867c2e3679ca79, type: 3}
   _positionTracking:
     _strategy: 0
     _drag: 0
