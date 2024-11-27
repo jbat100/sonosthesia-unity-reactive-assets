@@ -7,13 +7,21 @@ This project demonstrates [sonosthesia](https://github.com/jbat100/sonosthesia-d
 - continuous data flow and processing based on [Rx](https://github.com/neuecc/UniRx)
 - a custom affordance system based on interaction sources and actors
 
-# Demo Scenes
+Fist, open and pinch [hand shapes](https://docs.unity3d.com/Packages/com.unity.xr.hands@1.5/manual/gestures/hand-shapes.html) have different effects on the reactive assets.
+
+XR controller interaction is implemented as mimicking hand shape through a combination of grip and trigger. It is mostly used for debug porposes, more sophisticated controller interactions will be implemented in later iterations.
+
+# Demo Application
+
+These demo scenes include reactive sound, videos including sound are available. System menu pinch gestures are available to bring up scene selection UI (left hand) and recenter scene (right hand)
 
 ### Pollen
 
 
 
 ### Spark
+
+
 
 # Test Scenes
 
