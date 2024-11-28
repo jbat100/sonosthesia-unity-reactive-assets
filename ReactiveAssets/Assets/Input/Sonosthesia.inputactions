@@ -1,0 +1,122 @@
+{
+    "name": "Sonosthesia",
+    "maps": [
+        {
+            "name": "ReactiveLeft",
+            "id": "0a624b75-7c3b-4bf7-ba4e-fdca90549e2d",
+            "actions": [
+                {
+                    "name": "LeftGrip",
+                    "type": "Value",
+                    "id": "e95336de-7193-4c2b-846d-834710e8c2ce",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftTrigger",
+                    "type": "Value",
+                    "id": "8972df18-7e83-4610-a2f1-7cad7661777f",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftMenu",
+                    "type": "Button",
+                    "id": "e1c8835b-0811-4a83-bc91-74417fe182d1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "17253150-bee0-45ed-8a02-db721faa6b0c",
+                    "path": "<XRController>{LeftHand}/{Grip}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftGrip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ebf1d911-dd7e-4270-ba36-6beb7a67b3a1",
+                    "path": "<XRController>{LeftHand}/{Trigger}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d7bf060f-2c66-4b41-8182-2c0ced94c10e",
+                    "path": "<XRController>{LeftHand}/{MenuButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ReactiveRight",
+            "id": "7f9f5074-9169-481a-9431-43d188777fb7",
+            "actions": [
+                {
+                    "name": "RightGrip",
+                    "type": "Value",
+                    "id": "cd1c7d39-a785-4dae-a0a0-16748bd6786e",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightTrigger",
+                    "type": "Value",
+                    "id": "4780c4da-cb4e-46d8-8e10-5c8f99baba9f",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "85067ad9-1fa0-47bb-90d9-54dfbaede9f9",
+                    "path": "<XRController>{RightHand}/{Grip}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightGrip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "da703125-5f93-4b77-880c-dcfc6f5d8ac9",
+                    "path": "<XRController>{RightHand}/{Trigger}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightTrigger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

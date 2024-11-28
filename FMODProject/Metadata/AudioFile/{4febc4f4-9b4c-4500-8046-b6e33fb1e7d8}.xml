@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4febc4f4-9b4c-4500-8046-b6e33fb1e7d8}">
+		<property name="assetPath">
+			<value>Impact/ES_Impact, Dark, Cinematic, Heavy Hit, Rumble - Epidemic Sound.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.4000000000000004</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{37f295bd-c32e-48e2-bb8e-4e14b79f7c0d}</destination>
+		</relationship>
+	</object>
+</objects>

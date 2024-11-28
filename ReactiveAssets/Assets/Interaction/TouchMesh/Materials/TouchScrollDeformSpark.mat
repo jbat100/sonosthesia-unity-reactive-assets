@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TouchScrollDeformSpark
+  m_Shader: {fileID: -6465566751694194690, guid: 0581ca0606e43d948b4aaa98abba90a5,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Amplitude1: 0.34
+    - _Amplitude2: 1
+    - _Displacement: 0.2
+    - _Frequency1: 1
+    - _Frequency2: 2
+    - _Intensity: 0
+    - _IsPlane: 0
+    - _Power1: 2
+    - _Power2: 6
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Scroll1: 0
+    - _Scroll2: 0
+    - _Smoothness: 0.7
+    m_Colors:
+    - _NegativeColor: {r: 0.59748423, g: 0.26116446, b: 0.26116446, a: 0}
+    - _NegativeSpark: {r: 0.2856758, g: 0.3018868, b: 0.15474069, a: 0}
+    - _PositiveColor: {r: 0, g: 0, b: 0, a: 0}
+    - _PositiveSpark: {r: 5.686675, g: 5.9921575, b: 3.2193162, a: 0}
+    - _RestColor: {r: 0, g: 0, b: 0, a: 0}
+    - _RestSpark: {r: 0.95097196, g: 1, b: 0.5377357, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &9111312877696409141
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b52d9700-b235-492b-a2d6-01f8004fb038}">
+		<property name="assetPath">
+			<value>Impact/ES_Impact, Dark, Cinematic, Roaring, Thriller - Epidemic Sound.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.8319999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{37f295bd-c32e-48e2-bb8e-4e14b79f7c0d}</destination>
+		</relationship>
+	</object>
+</objects>

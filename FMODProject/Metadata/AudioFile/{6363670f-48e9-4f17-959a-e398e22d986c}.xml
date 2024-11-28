@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{6363670f-48e9-4f17-959a-e398e22d986c}">
+		<property name="assetPath">
+			<value>GUI/FUI Button Simple Beeps.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.70399092970521537</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{37f295bd-c32e-48e2-bb8e-4e14b79f7c0d}</destination>
+		</relationship>
+	</object>
+</objects>
