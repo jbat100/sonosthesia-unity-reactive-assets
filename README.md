@@ -17,10 +17,12 @@ These demo scenes include reactive sound, videos including sound are available. 
 
 ### Pollen
 
+![Pollen_Full_short](https://github.com/user-attachments/assets/438dda8a-b4de-4131-9199-3ec0ecad2a4d)
 
 
 ### Spark
 
+![Spark_Full_short](https://github.com/user-attachments/assets/f6a21a40-8e9c-4807-abb2-b38d2de29527)
 
 
 # Test Scenes
