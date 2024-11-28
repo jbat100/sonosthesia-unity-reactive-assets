@@ -13,21 +13,37 @@ XR controller interaction is implemented as mimicking hand shape through a combi
 
 # Demo Application
 
-These demo scenes include reactive sound, videos including sound are available. System menu pinch gestures are available to bring up scene selection UI (left hand) and recenter scene (right hand)
+These demo scenes include reactive sound, videos including sound are available. System menu pinch gestures are available to bring up scene selection UI (left hand) and recenter scene (right hand).
 
-### Pollen
+### Build Instructions 
 
-![Pollen_Full_short](https://github.com/user-attachments/assets/438dda8a-b4de-4131-9199-3ec0ecad2a4d)
-
-
-### Spark
-
-![Spark_Full_short](https://github.com/user-attachments/assets/f6a21a40-8e9c-4807-abb2-b38d2de29527)
-
+- You must open and build `FMODProject` in FMOD studio
+- Android build settings are for Quest 3 (you can change the `Oculus/OculusProjectConfig` asset for aditional device support) 
+- Standalone settings can build Link executable on Windows but hands are not supported.
+- Do not apply the removing HDR support suggestion as it will remove bloom effect.
 
 # Test Scenes
 
+### Pollen
+
+Video with reactive sound available [here](https://www.youtube.com/watch?v=cWXSkkcUVtA&list=PL8HqVGO27FJP4i2wh5F9h6oP8IscdKsg2). 
+
+<p align="center">
+    <img alt="RtMIDIInput" src="https://github.com/user-attachments/assets/438dda8a-b4de-4131-9199-3ec0ecad2a4d" width="80%">
+</p>
+
+### Spark
+
+Video with reactive sound available [here](https://www.youtube.com/watch?v=Pw_EPlO7XNs&list=PL8HqVGO27FJP4i2wh5F9h6oP8IscdKsg2). 
+
+<p align="center">
+    <img alt="RtMIDIInput" src="https://github.com/user-attachments/assets/f6a21a40-8e9c-4807-abb2-b38d2de29527" width="80%">
+</p>
+
+
 # Packages
+
+This project illustrates the use of the following sonosthesia Unity [packages](https://github.com/jbat100/sonosthesia-unity-packages).
 
 ### Data Flow
 
