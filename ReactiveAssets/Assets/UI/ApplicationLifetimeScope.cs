@@ -15,11 +15,11 @@ namespace Sonosthesia
             // configure state as needed
             
             builder.RegisterInstance(state);
-            
             builder.RegisterInstance(_applicationConfiguration.ApplicationSettings);
+
+            SceneSwitcher switcher = new (_applicationConfiguration.SceneSwitcherSettings, state, this);
             
-            builder.RegisterInstance(new SceneSwitcher(_applicationConfiguration.SceneSwitcherSettings, this))
-                .As<ISceneSwitcher>();
+            builder.RegisterInstance(switcher).As<ISceneSwitcher>();
         }
     }
 }

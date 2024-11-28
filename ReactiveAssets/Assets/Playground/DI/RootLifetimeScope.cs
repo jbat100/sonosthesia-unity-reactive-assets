@@ -13,10 +13,11 @@ namespace Sonosthesia
 
         protected override void Configure(IContainerBuilder builder)
         {
+            ApplicationState state = new ApplicationState();
+            // configure state as needed
             builder.RegisterInstance(_applicationConfiguration.SceneSwitcherSettings);
-
-            builder.RegisterInstance(new SceneSwitcher(_applicationConfiguration.SceneSwitcherSettings, this)).As<ISceneSwitcher>();
-            
+            SceneSwitcher switcher = new (_applicationConfiguration.SceneSwitcherSettings, state, this);
+            builder.RegisterInstance(switcher).As<ISceneSwitcher>();
             builder.RegisterComponentInNewPrefab(_hello, Lifetime.Scoped);
         }
     }
